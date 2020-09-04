@@ -1,0 +1,15 @@
+Package: com.opa334.safariplus
+Version: 1.3.3
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common, org.thebigboss.libcolorpicker, net.limneos.libbulletin, com.rpetrich.rocketbootstrap
+Architecture: iphoneos-arm
+Filename: .//debs/com.opa334.safariplus_1.3.3_iphoneos-arm.deb
+Size: 312302
+Installed-Size: 1211
+MD5sum: 26208c32c940685e747dc4d07d33e4a9
+Description: Various enhancements to Safari!
+Name: Safari Plus
+Author: opa334 <opa334@protonmail.com>
+Depiction: http://skyrilhd.github.io/repo/depictions/com.opa334.safariplus
+Icon: file:///Library/PreferenceBundles/SafariPlusPrefs.bundle/SPRootIcon@2x.png
