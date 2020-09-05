@@ -1,9 +1,0 @@
-Package: com.domiferrar.applist
-Name: AppList
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0)
-Version: 1.5.16
-Architecture: iphoneos-arm
-Description: A beautiful tweak!
-Maintainer: Ryan Petrich <rpetrich@gmail.com>
-Author: Ryan Petrich <rpetrich@gmail.com>
-Section: Tweaks
