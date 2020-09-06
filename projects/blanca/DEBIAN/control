@@ -1,0 +1,9 @@
+Package: com.domiferrar.blanca
+Name: blanca
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 13.0)
+Version: 1.0.1
+Architecture: iphoneos-arm
+Description: A beautiful Blanca for the notifications
+Maintainer: Phoenix Dev
+Author: Phoenix Dev
+Section: tweaks
