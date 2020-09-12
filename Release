@@ -6,4 +6,4 @@ Codename: cydia-ios
 Architectures: iphoneos-arm
 Components: main
 Description: domiferrar's Repo
-Icon: CydiaIcon.png
+Icon: file:///CydiaIcon.png
