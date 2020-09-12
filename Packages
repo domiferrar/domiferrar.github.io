@@ -8,7 +8,7 @@ Size: 81582
 MD5sum: def93a626d7f9400e6dc759d5bb2be7b
 SHA1: 5c7bd8933409a23e2f5a0be29449348e26d9b11b
 SHA256: 34a6d2e23c148b2c08f2e3b48fc6a47f9322e5891c561515f93a2d5e9e2b1a23
-Section: tweaks
+Section: Tweaks
 Description:  A beautiful tweak!
 Author: Phoenix Dev <phnxdev07@gmail.com>
 Name: blanca
