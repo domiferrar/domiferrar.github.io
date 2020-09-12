@@ -11,5 +11,22 @@ SHA256: 34a6d2e23c148b2c08f2e3b48fc6a47f9322e5891c561515f93a2d5e9e2b1a23
 Section: Tweaks
 Description:  A beautiful tweak!
 Author: Phoenix Dev <phnxdev07@gmail.com>
-Name: blanca
+Name: Blanca
 Icon: https://phnx-dev.github.io/repo/icons/blanca.png
+
+
+Package: com.domiferrar.betterccxi.deb
+Version: 1.6.0
+Architecture: iphoneos-arm
+Maintainer: ATWiiks
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader
+Filename: ./debs/com.atwiiks.betterccxi_1.6.0_iphoneos-arm.deb
+Size: 132882
+MD5sum: 200acf231d11b0bb8308f1fcf2a6150d
+SHA1: a6653a4d8b5e9101a1c3bb8233068a7f5d1b27df
+SHA256: 9eec9d870fc70cf46ad234e79ef6f7e8edb1c39991c37050f77bd8a427c8055f
+Section: Tweaks
+Description:  A beautiful tweak!
+Author: ATWiiks
+Name: BetterCCXI
+Icon: https://repo.packix.com/api/Packages/5b349f7279d78d001022d937/icon/download?size=medium
