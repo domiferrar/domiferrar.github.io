@@ -30,3 +30,21 @@ Description:  A beautiful tweak!
 Author: ATWiiks
 Name: BetterCCXI
 Icon: https://repo.packix.com/api/Packages/5b349f7279d78d001022d937/icon/download?size=medium
+
+
+Package: com.domiferrar.batchomatic.deb
+Version: 4.3.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 11.0), mobilesubstrate, coreutils
+Filename: ./debs/com.captinc.batchomatic_4.3.1_iphoneos-arm.deb
+Size: 109282
+MD5sum: eb05d28aa6d4f7ef48f07a349afec380
+SHA1: 03e0faec711f424905e45a59a666716778d849f9
+SHA256: 57a9611672008f2950a4bd043f1713ab0c7e2dc40da6c21fa8cbf6101f74150f
+Section: Tweaks
+Description: A beautiful tweak!
+Author: Capt Inc <teamcaptinc@gmail.com>
+Name: Batchomatic
+Icon: http://cydia.saurik.com/icon@2x/com.captinc.batchomatic.png
+size=medium
