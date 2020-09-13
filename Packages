@@ -1,0 +1,105 @@
+Package: com.domiferrar.blanca.deb
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Phoenix Dev <phnxdev07@gmail.com>
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 13.0)
+Filename: ./debs/com.vinit.blanca_1.0.1_iphoneos-arm.deb
+Size: 81582
+MD5sum: def93a626d7f9400e6dc759d5bb2be7b
+SHA1: 5c7bd8933409a23e2f5a0be29449348e26d9b11b
+SHA256: 34a6d2e23c148b2c08f2e3b48fc6a47f9322e5891c561515f93a2d5e9e2b1a23
+Section: Tweaks
+Description:  A beautiful tweak!
+Author: Phoenix Dev <phnxdev07@gmail.com>
+Name: Blanca
+Icon: https://phnx-dev.github.io/repo/icons/blanca.png
+
+
+Package: com.domiferrar.betterccxi.deb
+Version: 1.6.0
+Architecture: iphoneos-arm
+Maintainer: ATWiiks
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader
+Filename: ./debs/com.atwiiks.betterccxi_1.6.0_iphoneos-arm.deb
+Size: 132882
+MD5sum: 200acf231d11b0bb8308f1fcf2a6150d
+SHA1: a6653a4d8b5e9101a1c3bb8233068a7f5d1b27df
+SHA256: 9eec9d870fc70cf46ad234e79ef6f7e8edb1c39991c37050f77bd8a427c8055f
+Section: Tweaks
+Description:  A beautiful tweak!
+Author: ATWiiks
+Name: BetterCCXI
+Icon: https://repo.packix.com/api/Packages/5b349f7279d78d001022d937/icon/download?size=medium
+
+
+Package: com.domiferrar.batchomatic.deb
+Version: 4.3.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 11.0), mobilesubstrate, coreutils
+Filename: ./debs/com.captinc.batchomatic_4.3.1_iphoneos-arm.deb
+Size: 109282
+MD5sum: eb05d28aa6d4f7ef48f07a349afec380
+SHA1: 03e0faec711f424905e45a59a666716778d849f9
+SHA256: 57a9611672008f2950a4bd043f1713ab0c7e2dc40da6c21fa8cbf6101f74150f
+Section: Tweaks
+Description: A beautiful tweak!
+Author: Capt Inc <teamcaptinc@gmail.com>
+Name: Batchomatic
+Icon: https://raw.githubusercontent.com/captinc/Batchomatic/master/Resources/Icon%402x.png
+size=medium
+
+
+Package: com.domiferrar.castswitcher
+Version: 1.2-3
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.castmary.castswitcher_1.2-3_iphoneos-arm.deb
+Size: 4516
+MD5sum: 529ee38f392e2be834ba370b322079fe
+SHA1: 01a1d2fb18130eea82729a0172234d846b668ccc
+SHA256: f383bb2b2e59df0b0ae2acec3c5e84724e0735f09d2c7c3ae1c5ca0338d1687b
+Section: Tweaks
+Description: It's a GridSwitcher
+Author: Castmary <dbloxia@gmail.com>
+Name: CastSwitcher
+Icon:
+size=medium
+
+
+Package: com.domiferrar.accent
+Version: 1.4.0
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader, ws.hbang.common, applist
+Filename: ./debs/com.ivanc.accent_1.4.0_iphoneos-arm.deb
+Size: 55090
+MD5sum: f6eba19b5cf7f28f761386211d4d5909
+SHA1: c768b49879bb9bab4857513310d126b8b746be65 
+SHA256: d04f4ee97be07df18b53727c03c006174e81abc432309d762e2cab6a7663ead1
+Section: Tweaks
+Description: iOS accent colors in macOS style!
+Author: Ivan Cristina <ivancristina5@gmail.com>
+Name: Accent
+Icon: http://cydia.saurik.com/icon@2x/com.ivanc.accent.png
+size=medium
+
+
+Package: com.domiferrar.
+Version: 1.3.0
+Architecture: iphoneos-arm
+Maintainer: HackYouriphone <repo@hackyouriphone.org>
+Depends: mobilesubstrate, ws.hbang.common (>= 1.14), org.thebigboss.libcolorpicker | com.hackyouriphone.libcolorpicker
+Conflicts: me.conorthedev.pastel, me.conorthedev.dotto+
+Filename: ./debs/com.hackyouriphone.badgebar_1.3.0_iphoneos-arm.deb
+Size: 168134
+MD5sum: 5d58a1aaaeddcb1e315ddbfdc4bac45c
+SHA1: 4e105ce3c480b108d0071b9ae9c8f80e787e3fd1
+SHA256: c53eee03eda6781e54cda34216e785302b284759d0c2878c8d06b0f564acb227
+Section: Themes
+Description: Change your ugly badge notification!
+Author: JannikCrack <repo@hackyouriphone.org>
+Name: BadgeBar
+Icon: https://twickd.com/cdn/screenshots/370ddecd8e931bb0a086abe22df950a8/default
+size=medium
