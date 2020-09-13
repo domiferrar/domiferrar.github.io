@@ -46,5 +46,5 @@ Section: Tweaks
 Description: A beautiful tweak!
 Author: Capt Inc <teamcaptinc@gmail.com>
 Name: Batchomatic
-Icon: http://cydia.saurik.com/icon@2x/com.captinc.batchomatic.png
+Icon: https://raw.githubusercontent.com/captinc/Batchomatic/master/Resources/Icon%402x.png
 size=medium
