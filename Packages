@@ -48,3 +48,22 @@ Author: Capt Inc <teamcaptinc@gmail.com>
 Name: Batchomatic
 Icon: https://raw.githubusercontent.com/captinc/Batchomatic/master/Resources/Icon%402x.png
 size=medium
+
+
+Package: com.domiferrar.castswitcher
+Version: 1.2-3
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.castmary.castswitcher_1.2-3_iphoneos-arm.deb
+Size: 4516
+MD5sum: 529ee38f392e2be834ba370b322079fe
+SHA1: 01a1d2fb18130eea82729a0172234d846b668ccc
+SHA256: f383bb2b2e59df0b0ae2acec3c5e84724e0735f09d2c7c3ae1c5ca0338d1687b
+Section: Tweaks
+Description: It's a GridSwitcher
+Author: Castmary <dbloxia@gmail.com>
+Name: CastSwitcher
+Icon:
+size=medium
+
