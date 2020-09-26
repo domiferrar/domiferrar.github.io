@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)https://domiferrar.github.io/-->
+<html lang="it" class="has-subpixel translated-ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="generator" content="Hugo 0.40.3">
+
+<!--<base target="_top">--><base href="." target="_top">
+<link rel="stylesheet" type="text/css" href="./CreatureSurvive_files/style.css">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="referrer" content="no-referrer">
+<meta name="author" content="Domiferrar">
+<meta name="description" content="Don&#39;t panic"> <meta property="og:title" content="Domiferrar">
+<meta property="og:description" content="Don&#39;t panic">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://domiferrar.github.io/">
+
+
+
+<meta property="og:updated_time" content="2018-06-01T16:24:27-05:00">
+
+
+
+
+
+
+
+
+
+
+    <title>Domiferrar</title>
+    <link rel="canonical" href="https://domiferrar.github.io/">
+
+
+
+
+
+
+<link rel="stylesheet" href="./CreatureSurvive_files/ir-black.min.css">
+
+
+
+<link rel="stylesheet" href="./CreatureSurvive_files/font-awesome.min.css">
+<link rel="stylesheet" href="./CreatureSurvive_files/css">
+<link rel="stylesheet" href="./CreatureSurvive_files/reset.css">
+<link rel="stylesheet" href="./CreatureSurvive_files/pygments.css">
+
+<link rel="stylesheet" href="./CreatureSurvive_files/ios7.min.css">
+
+
+<link rel="shortcut icon" href="https://creaturesurvive.github.io/repo/img/favicon.ico">
+
+
+
+<link href="https://domiferrar.github.io/index.xml" rel="alternate " type="application/rss+xml " title=" domiferrar ">
+
+
+
+
+
+
+<script src="./CreatureSurvive_files/ios7.min.js"></script>
+
+<link type="text/css" rel="stylesheet" charset="UTF-8" href="./CreatureSurvive_files/translateelement.css"></head>
+<body lang=" en "><nav>
+    <a class="title" href="https://domiferrar.github.io"><font style="vertical-align: inherit;"></font></a>
+    <font style="vertical-align: inherit;"><span><a style="margin-left: 3em; " href="https://creaturesurvive.github.io/repo/blog/"><font style="vertical-align: inherit;">Blog di</font></a></span><a class="title" href="https://creaturesurvive.github.io/repo"><font style="vertical-align: inherit;"> CreatureSurvive </font></a><span><a style="margin-left: 3em; " href="https://creaturesurvive.github.io/repo/about/"><font style="vertical-align: inherit;">sui </font></a></span><span><a style="margin-left: 3em; " href="https://creaturesurvive.github.io/repo/packages/"><font style="vertical-align: inherit;">pacchetti</font></a></span></font><br>
+    <span>
+
+        <a style="margin-left: 3em; " href="https://creaturesurvive.github.io/repo/blog/"><font style="vertical-align: inherit;"></font></a>
+
+        <a style="margin-left: 3em; " href="https://creaturesurvive.github.io/repo/about/"><font style="vertical-align: inherit;"></font></a>
+
+        <a style="margin-left: 3em; " href="https://creaturesurvive.github.io/repo/packages/"><font style="vertical-align: inherit;"></font></a>
+
+    </span>
+</nav>
+
+
+<ul id="about">
+    <li class="horizontal">
+        <a id="add-to-cydia" href="cydia://url/https://cydia.saurik.com/api/share#?source=https%3A%2F%2Fcreaturesurvive.github.io%2F" role="button">
+            <img class="left" src="./CreatureSurvive_files/CS_Logo.svg" width="56" height="56" alt="">
+            <div class="right">
+                <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Repository Cydia di CreatureSurvive.</font></font></p>
+                <p>
+                    <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tocca per aggiungere questo repository a Cydia</font></font></strong>
+                </p>
+            </div>
+        </a>
+    </li>
+</ul>
+
+<br>
+
+<h2 class="heading"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ultimi pacchetti</font></font></h2>
+
+<ul>
+
+    <li>
+        <a href="https://creaturesurvive.github.io/repo/packages/switcherradiixi/depiction/" role="button" class="cydia_blank">
+            <span>
+                <img class="icon" src="./CreatureSurvive_files/icon.png">
+            </span>
+            <span>
+                <label>
+                    <p style="margin-left: 25px;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">switcherRadiiXI</font></font></p>
+                </label>
+            </span>
+        </a>
+    </li>
+
+    <li>
+        <a href="https://creaturesurvive.github.io/repo/packages/switcherradii/depiction/" role="button" class="cydia_blank">
+            <span>
+                <img class="icon" src="./CreatureSurvive_files/icon.png">
+            </span>
+            <span>
+                <label>
+                    <p style="margin-left: 25px;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">switcherRadii</font></font></p>
+                </label>
+            </span>
+        </a>
+    </li>
+
+    <li>
+        <a href="https://creaturesurvive.github.io/repo/packages/stretcher/depiction/" role="button" class="cydia_blank">
+            <span>
+                <img class="icon" src="./CreatureSurvive_files/icon.png">
+            </span>
+            <span>
+                <label>
+                    <p style="margin-left: 25px;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">barella</font></font></p>
+                </label>
+            </span>
+        </a>
+    </li>
+
+    <li>
+        <a href="https://creaturesurvive.github.io/repo/packages/simmerdown/depiction/" role="button" class="cydia_blank">
+            <span>
+                <img class="icon" src="./CreatureSurvive_files/icon.png">
+            </span>
+            <span>
+                <label>
+                    <p style="margin-left: 25px;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">calmarsi</font></font></p>
+                </label>
+            </span>
+        </a>
+    </li>
+
+    <li>
+        <a href="https://creaturesurvive.github.io/repo/packages/shuffle/depiction/" role="button" class="cydia_blank">
+            <span>
+                <img class="icon" src="./CreatureSurvive_files/icon.png">
+            </span>
+            <span>
+                <label>
+                    <p style="margin-left: 25px;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">mescolare</font></font></p>
+                </label>
+            </span>
+        </a>
+    </li>
+
+    <li class="post-item no-bullet">
+        <a id="see-more" href="https://creaturesurvive.github.io/repo/packages/" role="button" class="cydia_blank">
+            <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Vedi altro…</font></font></span>
+        </a>
+    </li>
+
+</ul>
+
+    <footer role="footer" style="text-align: center">
+
+        <br> <div id="social" style="text-align: center; font-size: 32px;">
+
+    <a class="symbol" href="https://creaturesurvive.github.io/repo/support@creaturecoding.com">
+        <i class="fa fa-envelope-square"></i>
+    </a>
+
+    <a class="symbol" href="https://www.github.com/CreatureSurvive">
+        <i class="fa fa-github-square"></i>
+    </a>
+
+    <a class="symbol" href="https://www.reddit.com/u/CreatureSurvive">
+        <i class="fa fa-reddit-square"></i>
+    </a>
+
+    <a class="symbol" href="https://www.twitter.com/CreatureSurvive">
+        <i class="fa fa-twitter-square"></i>
+    </a>
+
+</div>
+        <br>
+        <p>
+            <a class="title" href="https://creaturesurvive.github.io/repo"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CreatureCoding</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> © Copyright 2019
+        </font></font></p>
+    </footer>
+
+
+
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-119551439-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async="" src="./CreatureSurvive_files/analytics.js"></script>
+
+
+
+  <script src="./CreatureSurvive_files/highlight.min.js"></script>
+
+    <script src="./CreatureSurvive_files/go.min.js"></script>
+
+
+  <script type="text/javascript">
+    hljs.initHighlightingOnLoad();
+  </script><div id="goog-gt-tt" class="skiptranslate" dir="ltr"><div style="padding: 8px;"><div><div class="logo"><img src="./CreatureSurvive_files/translate_24dp.png" width="20" height="20" alt="Google Traduttore"></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">Testo originale</h1></div><div class="middle" style="padding: 8px;"><div class="original-text"></div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">Contribuisci a una traduzione migliore</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;"><div class="activity-root"></div></div></div><div class="status-message" style="display: none;"></div></div>
+
+<div class="goog-te-spinner-pos"><div class="goog-te-spinner-animation"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle></svg></div></div></body></html>
