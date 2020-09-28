@@ -103,3 +103,52 @@ Author: JannikCrack <repo@hackyouriphone.org>
 Name: BadgeBar
 Icon: https://twickd.com/cdn/screenshots/370ddecd8e931bb0a086abe22df950a8/default
 size=medium
+
+
+Package: com.domiferrar.applist
+Version: 1.5.16
+Architecture: iphoneos-arm
+Maintainer:
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0)
+Conflicts: xcom.a3tweaks.polus (<< 2.0.7)
+Filename: ./debs/applist_1.5.16_iphoneos-arm.deb
+Size: 186806
+MD5sum: 131f7031b4ca5e9d1a48b2485fdaabc6SHA1: 6007620cc7ceb0313432389efe0b93c461d44512SHA256: d0e4c7c5de6b092d586ca87f7893ef7ee379f8adbe2eea25
+Section: System
+Description: Allow extensions to read the list of installed apps
+Author: Ryan Petrich<rpetrich@gmail.com>
+Name:AppList
+Icon:
+size=medium
+
+
+Package: com.domiferrar.basic-cmds
+Version: 48-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner<maintainer@sbdhi.com>
+Depends: dpkg (>= 1.14.25-8)
+Filename: ./debs/basic-cmds_48-1_iphoneos-arm.deb
+Size: 17250
+MD5sum: 63da511e4ae491ea059e25e43f8d784cSHA1: de430676c12fec2cf357e0e09b8b15903b02b03aSHA256: 20da487e554bc725e914cfa95afe2b1a68d83d70a3258518
+Section: Utilities
+Description: 
+Author: Sam Bingner<maintainer@sbdhi.com>
+Name: basic-cmds
+Icon:
+size=medium
+
+
+Package: com.domiferrar.systeminfo
+Version: 2.7.2-1
+Architecture: iphoneos-arm
+Maintainer: ARX8x
+Depends: mobilesubstrate
+Filename: ./debs/xyz.xninja.systeminfo_2.7.2-1_iphoneos-arm.deb
+Size: 428136
+MD5sum: ab3ee903d6abca07f023c6fff7b5c21cSHA1: 87d86ed560c731c836daff69db0dfd9eb5f7b502SHA256: 202a7bd2df3304af08dc6f0827d18b14b8751692c379c55a
+Section: Tweaks
+Description: System information in Settings app > General > About, and other sections. Set boot-nonce, save SHSH, battery info etc
+Author: ARX8x
+Name: System Info
+Icon:
+size=medium
