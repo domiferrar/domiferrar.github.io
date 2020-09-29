@@ -152,3 +152,73 @@ Author: ARX8x
 Name: System Info
 Icon:
 size=medium
+
+
+Package: com.domiferrar.cleanhomescreen
+Version: 1.0.4
+Architecture: iphoneos-arm
+Maintainer: Justin Proulx
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/xyz.royalapps.cleanhomescreen_1.0.4_iphoneos-arm.deb
+Size: 32604
+MD5sum: d9b26c79f3897201ee080e6104ca52c4SHA1: a0c24819224616c3e016d865a7ca242af4b4c02bSHA256: 66772797b26eb6833c395bc74145937ee78bbbcb75ca0a4f
+Section: Tweaks
+Description: clean your homescreen 
+Author: Justin Proulx
+Name: CleanHomeScreen
+Icon: https://repo-cdn.dynastic.co/87965766762102785.ae9163d2d99923564489d0bd47b889fc-256
+size=medium
+
+
+Package: com.domiferrar.cercube
+Version: 5.2.3
+Architecture: iphoneos-arm
+Maintainer: Majd Alfhaily
+Depends: firmware (>= 9.0), mobilesubstrate, com.rpetrich.rocketbootstrap
+Conflicts: me.freemanrepo.cercube, com.unlimapps.ytpp, com.yourepo.goldcydia.cercube3ios789, com.yourepo.mohadu31.cercube3ios789, com.yourepo.canolli.cercube3ios789, com.repo.xarold.com.cercube3, com.hackyouriphone.cercube3, com.biteyourapple.net.cercube3, com.yourepo.arabicydia.cercube2, me.alfhaily.adblockforyoutube, me.alfhaily.cercube.lib, com.pulandres.cercubecrack
+Filename: ./debs/me.alfhaily.cercube_5.2.3_iphoneos-arm.deb
+Size: 5660888
+MD5sum: 4e5f212429874d27de70a899f9cde161SHA1: ecdbef902a9102902e9c66f49a79b979fa053a74SHA256: 943316bc579b8b8f6b1e98b08cb1464b2709d18e5e11081f
+Section: Tweaks
+Description: Download YouTube videos and more!
+Author: Majd Alfhaily
+Name: Cercube
+Icon: https://apt.alfhaily.me/cdn/assets/cercube-icon.png
+size=medium
+
+
+Package:
+Version:
+Architecture: iphoneos-arm
+Maintainer:
+Depends:
+Filename: ./debs/
+Size:
+MD5sum:
+SHA1:
+SHA256:
+Section:
+Description: 
+Author:
+Name:
+Icon:
+size=medium
+
+
+Package:
+Version:
+Architecture: iphoneos-arm
+Maintainer:
+Depends:
+Filename: ./debs/
+Size:
+MD5sum:
+SHA1:
+SHA256:
+Section:
+Description: 
+Author:
+Name:
+Icon:
+size=medium
+
