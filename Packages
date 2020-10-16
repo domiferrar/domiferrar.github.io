@@ -220,6 +220,58 @@ Icon: https://repo.packix.com/api/Packages/5dc08ec779b37c001a1e3d9f/icon/downloa
 size=medium
 
 
+Package: com.domiferrar.nopassafterrespring
+Version: 3.0
+Architecture: iphoneos-arm
+Maintainer: @_AppleExpert<aple.enterpriseIThelp@gmail.com>
+Depends:
+Filename: ./debs/com.appleenterprise.nopassafterrespring_3.0_iphoneos-arm.deb
+Size: 890
+MD5sum: 0d97c0d3a60e58ee50cfe6f5bfb74c70SHA1: 7c533436559843338760a9e4a0ea2e304463e212SHA256: 9b0139d523ec1fa5bca0cf2b889c5ba367c2d0418deeafb5
+Section: Tweaks
+Description: Disables passcode after a respring. To fully remove tweak, remove the tweak in your package manager and restart your iPhone. If you don’t restart your device, the device will still disable the passcode after respring.
+Author: @_AppleExpert<aple.enterpriseIThelp@gmail.com>
+Name: NoPassAfterRespring
+Icon: 
+size=medium
+
+
+Package:
+Version:
+Architecture: iphoneos-arm
+Maintainer:
+Depends:
+Filename: ./debs/
+Size:
+MD5sum:
+SHA1:
+SHA256:
+Section:
+Description: 
+Author:
+Name:
+Icon:
+size=medium
+
+
+Package:
+Version:
+Architecture: iphoneos-arm
+Maintainer:
+Depends:
+Filename: ./debs/
+Size:
+MD5sum:
+SHA1:
+SHA256:
+Section:
+Description: 
+Author:
+Name:
+Icon:
+size=medium
+
+
 Package:
 Version:
 Architecture: iphoneos-arm
