@@ -236,21 +236,20 @@ Icon:
 size=medium
 
 
-Package:
-Version:
+Package: com.domiferrar.cercube
+Version: 5.2.5
 Architecture: iphoneos-arm
-Maintainer:
-Depends:
-Filename: ./debs/
-Size:
-MD5sum:
-SHA1:
-SHA256:
-Section:
-Description: 
-Author:
-Name:
-Icon:
+Maintainer: Majd Alfhaily
+Depends: firmware (>= 9.0), mobilesubstrate, com.rpetrich.rocketbootstrap
+Conflicts: me.freemanrepo.cercube, com.unlimapps.ytpp, com.yourepo.goldcydia.cercube3ios789, com.yourepo.mohadu31.cercube3ios789, com.yourepo.canolli.cercube3ios789, com.repo.xarold.com.cercube3, com.hackyouriphone.cercube3, com.biteyourapple.net.cercube3, com.yourepo.arabicydia.cercube2, me.alfhaily.adblockforyoutube, me.alfhaily.cercube.lib, com.pulandres.cercubecrack
+Filename: ./debs/me.alfhaily.cercube_5.2.5_iphoneos-arm.deb
+Size: 5651786 
+MD5sum: 57cd8228f08195a8858396cb43a0781dSHA1: 297c2583d0e15571d473681dd47ca0978e6c4c1fSHA256: 34bb1bdc564a19aeef1bae4ad8b624c8d3444c920ba79e2d
+Section: Tweaks
+Description: Download YouTube videos and more!
+Author: Majd Alfhaily<freemanrepo@me.com>
+Name: Cercube for Youtube
+Icon: https://apt.alfhaily.me/cdn/assets/cercube-icon.png
 size=medium
 
 
