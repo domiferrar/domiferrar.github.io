@@ -253,37 +253,17 @@ Icon: https://apt.alfhaily.me/cdn/assets/cercube-icon.png
 size=medium
 
 
-Package:
-Version:
+Package: com.domiferrar.evilscheme
+Version: 0.2.4
 Architecture: iphoneos-arm
-Maintainer:
-Depends:
-Filename: ./debs/
-Size:
-MD5sum:
-SHA1:
-SHA256:
-Section:
-Description: 
-Author:
-Name:
-Icon:
-size=medium
-
-
-Package:
-Version:
-Architecture: iphoneos-arm
-Maintainer:
-Depends:
-Filename: ./debs/
-Size:
-MD5sum:
-SHA1:
-SHA256:
-Section:
-Description: 
-Author:
-Name:
-Icon:
+Maintainer: Lorenzo Pane
+Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0) 
+Filename: ./debs/net.pane.l.evilscheme_0.2.4_iphoneos-arm.deb
+Size: 178606
+MD5sum: 7a6ceb31e5f47b6c916c14783a46a689SHA1: 81e3f7a385718e91376efb81519741fd45081ea2SHA256: b08366b6115ce4a9c5923da3a27e7450e84a0efa13d8ea64
+Section: Tweaks
+Description: Manage default browser, navigation app, package manager, and more!
+Author: Lorenzo Pane
+Name: EvilScheme
+Icon: https://repo-cdn.dynastic.co/319883617109016577.b25236ae12e85a97cfb7922259bddc5b-332
 size=medium
