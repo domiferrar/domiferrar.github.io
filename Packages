@@ -170,23 +170,6 @@ Icon: https://repo-cdn.dynastic.co/87965766762102785.ae9163d2d99923564489d0bd47b
 size=medium
 
 
-Package: com.domiferrar.cercube
-Version: 5.2.5
-Architecture: iphoneos-arm
-Maintainer: Majd Alfhaily
-Depends: firmware (>= 9.0), mobilesubstrate, com.rpetrich.rocketbootstrap
-Conflicts: me.freemanrepo.cercube, com.unlimapps.ytpp, com.yourepo.goldcydia.cercube3ios789, com.yourepo.mohadu31.cercube3ios789, com.yourepo.canolli.cercube3ios789, com.repo.xarold.com.cercube3, com.hackyouriphone.cercube3, com.biteyourapple.net.cercube3, com.yourepo.arabicydia.cercube2, me.alfhaily.adblockforyoutube, me.alfhaily.cercube.lib, com.pulandres.cercubecrack
-Filename: ./debs/me.alfhaily.cercube_5.2.5_iphoneos-arm.deb
-Size: 5651786
-MD5sum: 57cd8228f08195a8858396cb43a0781dSHA1: 297c2583d0e15571d473681dd47ca0978e6c4c1fSHA256: 34bb1bdc564a19aeef1bae4ad8b624c8d3444c920ba79e2d
-Section: Tweaks
-Description: Download YouTube videos and more!
-Author: Majd Alfhaily
-Name: Cercube
-Icon: https://apt.alfhaily.me/cdn/assets/cercube-icon.png
-size=medium
-
-
 Package: com.domiferrar.grupi
 Version: 2.0
 Architecture: iphoneos-arm
@@ -266,4 +249,142 @@ Description: Manage default browser, navigation app, package manager, and more!
 Author: Lorenzo Pane
 Name: EvilScheme
 Icon: https://repo-cdn.dynastic.co/319883617109016577.b25236ae12e85a97cfb7922259bddc5b-332
+size=medium
+
+
+Package: com.domiferrar.libertylite
+Version: 0.2.10
+Architecture: iphoneos-arm
+Maintainer: Ryley Angus
+Depends: mobilesubstrate, preferenceloader, applist
+Filename: ./debs/com.ryleyangus.libertylite_0.2.10_iphoneos-arm.deb
+Size: 78396
+MD5sum: 97147cdd1eaf8ae06becd003e82e0728SHA1: 7c64a20b289a25832057e7a39dc1e80a1f8367d5SHA256: dfd72bafdbb959041f66fc4507f0493c3deed4326a25277f
+Section: Tweaks
+Description: A (lite) general purpose jailbreak detection bypass patch. Use the Liberty entry in the Settings app to block (most) apps from detecting your jailbreak. Disabling Substrate/Substitute is not supported, so certain apps (PayPal, HSBC HK) will still be problematic.
+Author: Ryley Angus
+Name: Liberty Lite
+Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref.png
+size=medium
+
+
+Package: com.domiferrar.cylinder
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss(bigboss@thebigboss.org)
+Depends: firmware (>= 3.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/com.r333d.cylinder_1.1_iphoneos-arm.deb
+Size: 504318
+MD5sum: 0d29a93c3e5f0a3f15585865a089a547SHA1: c6e51e1af2f059d7530f41eaf3f1da6597af1a67SHA256: cf6ddcf5cf0b9022dacfdec49402d0969ed72484b509097a
+Section: Tweaks
+Description: Make your icons dance
+Author: Reed Weichler(cydia@gmail.com)
+Name: Cylinder
+Icon: file:///Library/PreferenceBundles/CylinderSettings.bundle/Icon@2x.png
+size=medium
+
+
+Package: com.domiferrar.icanreadyou
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: CydiaGeek(lucaluca86@aol.com)
+Depends: mobilesubstrate
+Filename: ./debs/com.yourepo.cydiageek.icanreadyou_1.0.2_iphoneos-arm.deb
+Size: 8636
+MD5sum: fe482cbaf6da4373d7368c7f51dff8eaSHA1: 9c133248f0b9d0ba04a6b4f020025bb4a2097a0eSHA256: 9251d9aa48422d82747b072c25731d3c337103e4788d8d7d
+Section: Tweaks
+Description: You can always Read the Received WhatsApp Deleted Messages for All on Your Device! Soon also added as option on ABetterPrivacyforWhatsApp!
+Author: CydiaGeek(lucaluca86@aol.com)
+Name: ICanReadYou
+Icon: https://www.yourepo.com/images/sections/users/33.png
+size=medium
+
+
+Package: 
+Version:
+Architecture: iphoneos-arm
+Maintainer:
+Depends:
+Filename: ./debs/
+Size:
+MD5sum:
+SHA1:
+SHA256:
+Section:
+Description: 
+Author:
+Name:
+Icon:
+size=medium
+
+
+Package:
+Version:
+Architecture: iphoneos-arm
+Maintainer:
+Depends:
+Filename: ./debs/
+Size:
+MD5sum:
+SHA1:
+SHA256:
+Section:
+Description: 
+Author:
+Name:
+Icon:
+size=medium
+
+
+Package:
+Version:
+Architecture: iphoneos-arm
+Maintainer:
+Depends:
+Filename: ./debs/
+Size:
+MD5sum:
+SHA1:
+SHA256:
+Section:
+Description: 
+Author:
+Name:
+Icon:
+size=medium
+
+
+Package:
+Version:
+Architecture: iphoneos-arm
+Maintainer:
+Depends:
+Filename: ./debs/
+Size:
+MD5sum:
+SHA1:
+SHA256:
+Section:
+Description: 
+Author:
+Name:
+Icon:
+size=medium
+
+
+Package:
+Version:
+Architecture: iphoneos-arm
+Maintainer:
+Depends:
+Filename: ./debs/
+Size:
+MD5sum:
+SHA1:
+SHA256:
+Section:
+Description: 
+Author:
+Name:
+Icon:
 size=medium
