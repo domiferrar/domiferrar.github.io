@@ -316,21 +316,19 @@ Icon: https://chariz.com/cdn/icon/magma-evo/icon@3x.png
 size=medium
 
 
-Package:
-Version:
+Package: com.domiferrar.filza
+Version: 3.8.0-23
 Architecture: iphoneos-arm
-Maintainer:
-Depends:
-Filename: ./debs/
-Size:
-MD5sum:
-SHA1:
-SHA256:
-Section:
-Description: 
-Author:
-Name:
-Icon:
+Maintainer: BigBoss(bigboss@thebigboss.org)
+Depends: firmware (>= 7.0), zip, unzip, gzip, unrar, p7zip
+Filename: ./debs/com.tigisoftware.filza_3.8.0-23_iphoneos-arm.deb
+Size: 12886300
+MD5sum: 4ee978364d8b3f1c1369cbf32fe58649SHA1: 18655447d6139b4f90ba1874c15b79bb7f0bec7dSHA256: 1ac7b7a5ce0c2bdac718ab1bce1bdf5c4f0d53460e49fb5f
+Section: Utilities
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
+Author: TIGI Software(satashi2009@gmail.com)
+Name: Filza File Manager
+Icon: http://cydia.saurik.com/icon@2x/com.tigisoftware.filza.png
 size=medium
 
 
