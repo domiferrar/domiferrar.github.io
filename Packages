@@ -300,21 +300,19 @@ Icon: https://www.yourepo.com/images/sections/users/33.png
 size=medium
 
 
-Package: 
-Version:
+Package: com.domiferrar.magmaevo
+Version: 2.0.6
 Architecture: iphoneos-arm
-Maintainer:
-Depends:
-Filename: ./debs/
-Size:
-MD5sum:
-SHA1:
-SHA256:
-Section:
-Description: 
-Author:
-Name:
-Icon:
+Maintainer: HackYourIphone(repo@hackyouriphone.org)
+Depends: mobilesubstrate, firmware (>= 12.0), preferenceloader, com.opa334.ccsupport (>= 1.2.3), com.spark.libsparkcolourpicker | com.hackyouriphone.libsparkcolourpicker
+Filename: ./debs/com.hackyouriphone.magmaevo_2.0.6_iphoneos-arm.deb
+Size: 1519880 
+MD5sum: a2d7948a0e3d3726ea565b6c7e8acab7SHA1: eac9c7b19401808f3e2e71a5e2ab96bbb70d123cSHA256: cac63a6ef6100470ec8ca989bf4a174f2f01226af3184ecc
+Section: Themes
+Description: Your Control Center. Redefined.
+Author: NoisyFlake(repo@hackyouriphone.org)
+Name: Magma Evo
+Icon: https://chariz.com/cdn/icon/magma-evo/icon@3x.png
 size=medium
 
 
