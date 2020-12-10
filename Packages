@@ -29,7 +29,8 @@ Section: Tweaks
 Description:  A beautiful tweak!
 Author: ATWiiks
 Name: BetterCCXI
-Icon: https://repo.packix.com/api/Packages/5b349f7279d78d001022d937/icon/download?size=medium
+Icon: https://repo.packix.com/api/Packages/5b349f7279d78d001022d937/icon/download?
+size: medium
 
 
 Package: com.domiferrar.batchomatic
@@ -47,7 +48,7 @@ Description: A beautiful tweak!
 Author: Capt Inc <teamcaptinc@gmail.com>
 Name: Batchomatic
 Icon: https://raw.githubusercontent.com/captinc/Batchomatic/master/Resources/Icon%402x.png
-size=medium
+size: medium
 
 
 Package: com.domiferrar.castswitcher
@@ -65,7 +66,7 @@ Description: It's a GridSwitcher
 Author: Castmary <dbloxia@gmail.com>
 Name: CastSwitcher
 Icon:
-size=medium
+size: medium
 
 
 Package: com.domiferrar.accent
@@ -83,7 +84,7 @@ Description: iOS accent colors in macOS style!
 Author: Ivan Cristina <ivancristina5@gmail.com>
 Name: Accent
 Icon: http://cydia.saurik.com/icon@2x/com.ivanc.accent.png
-size=medium
+size: medium
 
 
 Package: com.domiferrar.badgebar
@@ -102,7 +103,7 @@ Description: Change your ugly badge notification!
 Author: JannikCrack <repo@hackyouriphone.org>
 Name: BadgeBar
 Icon: https://twickd.com/cdn/screenshots/370ddecd8e931bb0a086abe22df950a8/default
-size=medium
+size: medium
 
 
 Package: com.domiferrar.applist
@@ -119,7 +120,7 @@ Description: Allow extensions to read the list of installed apps
 Author: Ryan Petrich<rpetrich@gmail.com>
 Name:AppList
 Icon:
-size=medium
+size: medium
 
 
 Package: com.domiferrar.basic-cmds
@@ -135,7 +136,7 @@ Description:
 Author: Sam Bingner<maintainer@sbdhi.com>
 Name: basic-cmds
 Icon:
-size=medium
+size: medium
 
 
 Package: com.domiferrar.systeminfo
@@ -151,7 +152,7 @@ Description: System information in Settings app > General > About, and other sec
 Author: ARX8x
 Name: System Info
 Icon:
-size=medium
+size: medium
 
 
 Package: com.domiferrar.cleanhomescreen
@@ -167,7 +168,7 @@ Description: clean your homescreen
 Author: Justin Proulx
 Name: CleanHomeScreen
 Icon: https://repo-cdn.dynastic.co/87965766762102785.ae9163d2d99923564489d0bd47b889fc-256
-size=medium
+size: medium
 
 
 Package: com.domiferrar.grupi
@@ -183,8 +184,8 @@ Section: Tweaks
 Description: Grouped Notifications for iOS 11 ~ iOS 13
 Author: Soongyu Kwon & Timeloop<repo@hackyouriphone.org>
 Name: Grupi
-Icon: https://repo.packix.com/api/Packages/5e1749f1500e06001a9a389d/icon/download?size=medium
-size=medium
+Icon: https://repo.packix.com/api/Packages/5e1749f1500e06001a9a389d/icon/download?size: medium
+size: medium
 
 
 Package: com.domiferrar.translock
@@ -199,8 +200,8 @@ Section: Tweaks
 Description: A new clean look for your passcode screen!
 Author: MrGcGamer
 Name: TransLock
-Icon: https://repo.packix.com/api/Packages/5dc08ec779b37c001a1e3d9f/icon/download?size=medium
-size=medium
+Icon: https://repo.packix.com/api/Packages/5dc08ec779b37c001a1e3d9f/icon/download?size: medium
+size: medium
 
 
 Package: com.domiferrar.nopassafterrespring
@@ -216,7 +217,7 @@ Description: Disables passcode after a respring. To fully remove tweak, remove t
 Author: @_AppleExpert<aple.enterpriseIThelp@gmail.com>
 Name: NoPassAfterRespring
 Icon: 
-size=medium
+size: medium
 
 
 Package: com.domiferrar.cercube
@@ -233,7 +234,7 @@ Description: Download YouTube videos and more!
 Author: Majd Alfhaily<freemanrepo@me.com>
 Name: Cercube for Youtube
 Icon: https://apt.alfhaily.me/cdn/assets/cercube-icon.png
-size=medium
+size: medium
 
 
 Package: com.domiferrar.evilscheme
@@ -249,7 +250,7 @@ Description: Manage default browser, navigation app, package manager, and more!
 Author: Lorenzo Pane
 Name: EvilScheme
 Icon: https://repo-cdn.dynastic.co/319883617109016577.b25236ae12e85a97cfb7922259bddc5b-332
-size=medium
+size: medium
 
 
 Package: com.domiferrar.libertylite
@@ -265,7 +266,7 @@ Description: A (lite) general purpose jailbreak detection bypass patch. Use the 
 Author: Ryley Angus
 Name: Liberty Lite
 Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref.png
-size=medium
+size: medium
 
 
 Package: com.domiferrar.cylinder
@@ -281,7 +282,7 @@ Description: Make your icons dance
 Author: Reed Weichler(cydia@gmail.com)
 Name: Cylinder
 Icon: file:///Library/PreferenceBundles/CylinderSettings.bundle/Icon@2x.png
-size=medium
+size: medium
 
 
 Package: com.domiferrar.icanreadyou
@@ -297,7 +298,7 @@ Description: You can always Read the Received WhatsApp Deleted Messages for All 
 Author: CydiaGeek(lucaluca86@aol.com)
 Name: ICanReadYou
 Icon: https://www.yourepo.com/images/sections/users/33.png
-size=medium
+size: medium
 
 
 Package: com.domiferrar.magmaevo
@@ -313,7 +314,7 @@ Description: Your Control Center. Redefined.
 Author: NoisyFlake(repo@hackyouriphone.org)
 Name: Magma Evo
 Icon: https://chariz.com/cdn/icon/magma-evo/icon@3x.png
-size=medium
+size: medium
 
 
 Package: com.domiferrar.filza
@@ -329,58 +330,52 @@ Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
 Author: TIGI Software(satashi2009@gmail.com)
 Name: Filza File Manager
 Icon: http://cydia.saurik.com/icon@2x/com.tigisoftware.filza.png
-size=medium
+size: medium
 
 
-Package:
-Version:
+Package: com.domiferrar.foldercustomizer
+Version: 1.2.1-3
 Architecture: iphoneos-arm
-Maintainer:
-Depends:
-Filename: ./debs/
-Size:
-MD5sum:
-SHA1:
-SHA256:
-Section:
-Description: 
-Author:
-Name:
-Icon:
-size=medium
+Maintainer: BigBoss(bigboss@thebigboss.org)
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
+Filename: ./debs/com.broganminer.foldercustomizer_1.2.1-3_iphoneos-arm.deb
+Size: 90536
+MD5sum: 8744c3bc6f9bb695687fb0793ffef6b2SHA1: 97b7b2cb37f7b7f4785c387c7f7e41dd7186c208SHA256: 5e739ed686a657a51e51975d455af3d37e942eacffb7e959
+Section: Themes
+Description: Customize the look of your folders.
+Author: Brogan Miner(Broganminer22@gmail.com)
+Name: Folder Customizer
+Icon: http://cydia.saurik.com/icon@2x/com.broganminer.foldercustomizer.png
+size: medium
 
 
-Package:
-Version:
+Package: com.domiferrar.betteralarm
+Version: 1.2.5
 Architecture: iphoneos-arm
-Maintainer:
-Depends:
-Filename: ./debs/
-Size:
-MD5sum:
-SHA1:
-SHA256:
-Section:
-Description: 
-Author:
-Name:
-Icon:
-size=medium
+Maintainer: HackYourIphone(repo@hackyouriphone.org)
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, com.spark.libsparkcolourpicker | com.hackyouriphone.libsparkcolourpicker
+Filename: ./debs/com.hackyouriphone.betteralarm_1.2.5_iphoneos-arm.deb
+Size: 74040
+MD5sum: 4ece6eac953f84e8a3c117b0dd2a3a1bSHA1: a16ffb20d73925537e869db232078f1578a47f31SHA256: c7c159ce3bb84afe49c9a0227404763bc222c9485e821d56
+Section: Tweaks
+Description: A beautiful timer and alarm screen
+Author: NoisyFlake(repo@hackyouriphone.org)
+Name: Better Alarm
+Icon: https://chariz.com/cdn/icon/betteralarm/icon@2x.png
+size: medium
 
 
-Package:
-Version:
+Package: com.domiferrar.realcc
+Version: 1.0.2
 Architecture: iphoneos-arm
-Maintainer:
-Depends:
-Filename: ./debs/
-Size:
-MD5sum:
-SHA1:
-SHA256:
-Section:
-Description: 
-Author:
-Name:
-Icon:
-size=medium
+Maintainer: BigBoss(bigboss@thebigboss.org)
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jakeashacks.realcc_1.0.2_iphoneos-arm.deb
+Size: 6602
+MD5sum: 4c1ac72b58ddb667894ede08b7c74d61SHA1: 1040509962ddae7abf0b6f6fdda99970eaf51edeSHA256: e9944c02cf9afacc4b57aaf92a92d5ad36461d9ec8323a37
+Section: Tweaks
+Description: Actually disable Wi-Fi from the iOS 11 CC
+Author: Jake James(jakeashacks@gmail.com)
+Name: RealCC
+Icon: 
+size: medium
