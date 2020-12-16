@@ -379,3 +379,35 @@ Author: Jake James(jakeashacks@gmail.com)
 Name: RealCC
 Icon: 
 size: medium
+
+
+Package: com.domiferrar.fivedock13
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: P2KDev(p2kdev@gmail.com)
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.p2kdev.fivedock13_1.0_iphoneos-arm.deb
+Size: 6878
+MD5sum: f71a934002150c4746ac95b3c2b3ee32SHA1: d4e004fa891148b82c713d7c8cf19616a5afaf68SHA256: fefbe5d148dfe1240a625b48bb9d8aec8b45cc7c31743a06
+Section: Themes
+Description: Five Icons on your Dock!
+Author: P2KDev(p2kdev@gmail.com)
+Name: FiveDock13
+Icon: 
+size: medium
+
+
+Package: com.domiferrar.altdaemon
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Riley Testut
+Depends: 
+Filename: ./debs/com.rileytestut.altdaemon_1.0_iphoneos-arm.deb
+Size: 833900
+MD5sum: e4545b2b080ae62732ace88028032d18SHA1: fd80d9dafdca689e2f02afc307af4d5cb3956fe5SHA256: 4fde48e7c51a86d8f81116004f423e5199f18af05e5d6e1e
+Section: System
+Description: AltDaemon allows AltStore to install and refresh apps without a computer.
+Author: Riley Testut
+Name: AltDeamon
+Icon: 
+size: medium
