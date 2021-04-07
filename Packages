@@ -409,5 +409,118 @@ Section: System
 Description: AltDaemon allows AltStore to install and refresh apps without a computer.
 Author: Riley Testut
 Name: AltDeamon
-Icon: 
+Icon: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.idownloadblog.com%2F2020%2F10%2F06%2Faltdaemon-release%2F&psig=AOvVaw0Tp74RG_f8u1J01W8719em&ust=1617898520556000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNi18OfD7O8CFQAAAAAdAAAAABAD
+size: medium
+
+
+Package: com.domiferrar.coolcc
+Version: 1:4.0
+Architecture: iphoneos-arm
+Maintainer: 4nni3 (4nni3.14@gmail.com)
+Depends: mobilesubstrate, preferenceloader, com.creaturesurvive.libcscolorpicker
+Filename: ./debs/com.4nni3.coolcc_4.0_iphoneos-arm.deb
+Size: 52216
+MD5sum: 777148d93825c49ec1d613923d2c63b6SHA1: b7eb67f6226d01ad5c5cb5672ca3324bda6cceb9SHA256: 61ee35097649798daef425602a90aeee4a3b7754602c6288
+Section: Tweaks
+Description: Makes ControlCenter cool.
+Author: 4nni3 (4nni3.14@gmail.com)
+Name: CoolCC
+Icon: https://repo.packix.com/api/Packages/5dd9b745ce98db001aa0db9c/icon/download?size=medium
+size: medium
+
+
+Package: com.domiferrar.flipswitch
+Version: 1.0.16
+Architecture: iphoneos-arm
+Maintainer: rpetrich & a3tweaks (flipswitch@gmail.com)
+Depends: mobilesubstrate (>= 0.9.5001), com.rpetrich.rocketbootstrap (>= 1.0.9) | firmware (<< 7.0)
+Filename: ./debs/com.a3tweaks.flipswitch_1.0.16_iphoneos-arm.deb
+Size: 478306
+MD5sum: 3af8a8ab31f2c55b4861a9d32258638aSHA1: ef60b6fed1effa0e21d1e837d72e8353594f6d40SHA256: d63929a87dec0b9e4bc8aa691ffd4b8fc384777c30902e72
+Section: System
+Description: Centralized toggle system for iOS
+Author: rpetrich (flipswitch@gmail.com)
+Name: Flipswitch
+Icon: file:///Applications/Preferences.app/icon-table.png
+size: medium
+
+
+Package: com.domiferrar.plutil
+Version: 0.2.1
+Architecture: iphoneos-arm
+Maintainer: Samuel Bingner
+Depends: firmware (>= 2.0)
+Conflicts: com.ericasadun.utilities
+Filename: ./debs/com.bingner.plutil_0.2.1_iphoneos-arm.deb
+Size: 33938
+MD5sum: 0a34a71416321b34a7875557ce3c5581SHA1: 47f81fc7430f80d3881bdcbfc449538a4e9bc6eeSHA256: 5235352b5d968c9ac6151f287eae44fb44f2db8b7351b48f
+Section: System
+Description: plutil as from erica sadun
+Author: Samuel Bingner
+Name: plutil
+Icon:
+size: medium
+
+
+Package: com.domiferrar.libscribble
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Boo
+Depends:
+Filename: ./debs/com.boo.libscribble_1.0.0_iphoneos-arm.deb
+Size: 17562
+MD5sum: b8f447e76088abb272918736fa23dec4SHA1: 396961d18a866d96f3dada80a997664a4826640fSHA256: 37569d1a1d15e491206bec16e94f0b56ce64ee7498f505fe
+Section: System
+Description: Scribble gesture library
+Author: Boo
+Name: libScribble
+Icon:
+size: medium
+
+
+Package: com.domiferrar.BigBoss
+Version: 0.3-4
+Architecture: iphoneos-arm
+Maintainer: BigBoss (bigboss@thebigboss.org)
+Depends: firmware (>= 8.0)
+Filename: ./debs/
+Size: 162764
+MD5sum: 97d070c17710f8d1815700eaed213608SHA1: e6eb64152ec3883538ec7e8cd62af68096499497SHA256: 643f6c4a02c48ca49d544fe5109f9af5b18aacbd61af487f
+Section: Development
+Description: App notification library.
+Author: CokePokes (cokepokes@gmail.com)
+Name: libnotifications
+Icon:
+size: medium
+
+
+Package: com.domiferrar.libcscolorpicker
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: CreatureSurvive (support@creaturecoding.com)
+Depends:
+Filename: ./debs/com.creaturesurvive.libcscolorpicker_1.0_iphoneos-arm.deb
+Size: 147634
+MD5sum: c1708a0c541857d872f1a449ffb0131dSHA1: 79900c54a9a850086359aea757ed5f8025047230SHA256: eb1d8c71cd68eaf949029d73bbc775b27fca0b90b65ba4bd
+Section: System
+Description: A minimal color picker library for developers
+Author: CreatureSurvive (support@creaturecoding.com)
+Name: libCSColorPicker
+Icon:
+size: medium
+
+
+Package: com.domiferrar.appstoreplusplus
+Version: 0.9.11
+Architecture: iphoneos-arm
+Maintainer: HackYourIphone (repo@hackyouriphone.org)
+Depends: firmware (>= 11.0), mobilesubstrate, com.rpetrich.rocketbootstrap | com.hackyouriphone.rocketbootstrap
+Filename: ./debs/com.hackyouriphone.appstoreplusplus_0.9.11_iphoneos-arm.deb
+Size: 612808
+MD5sum: c698397a6cebbb14a4edc78dc3c81a77SHA1: 628684aed2d2e8912174a7c56468f809be2de9f0SHA256: 1ad9136d2685b7a1e1469cdaa8d7773096ce2b18e0827861
+Section: Tweaks
+Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-13.3.1
+Author: CokePokes (repo@hackyouriphone.org)
+Name: AppStore++
+Icon: shorturl.at/a3578
 size: medium
