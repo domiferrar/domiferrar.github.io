@@ -768,32 +768,389 @@ Icon: https://repo.dynastic.co/data/static/version/321775100896477184/3224740018
 size: medium
 
 
-Package: 
-Version: 
+Package: com.domiferrar.gawk
+Version: 4.2.1-1
 Architecture: iphoneos-arm
-Maintainer: 
+Maintainer: Sam Bingner (maintainer@sbdhi.com)
 Depends: 
-Filename: ./debs/
-Size: 
-MD5sum: 
-SHA1: 
-SHA256: 
-Section: 
-Description: 
+Filename: ./debs/gawk_4.2.1-1_iphoneos-arm.deb
+Size: 340774
+MD5sum: 1a6918e85f23c04f98b23645e30eefb5SHA1: 59568060a42b5efa04798df27431f63f91a8258eSHA256: 7893b895f1dbf1ef798e6519ec9c9bc8d9a65e484560d62b 
+Section: Addons
+Description: GNU's heavy-weight implementation of awk
 Author: 
-Name: 
+Name: Gawk
 Icon: 
 size: medium
 
 
+Package: com.domiferrar.libactivator
+Version: 1.9.13
+Architecture: iphoneos-arm
+Maintainer: Ryan Petrich (activator@gmail.com)
+Depends: mobilesubstrate (>= 0.9.5101), preferenceloader (>= 2.2.2), com.a3tweaks.flipswitch (>= 1.0.16~rc3), com.rpetrich.rocketbootstrap (>= 1.0.9)
+Conflicts: com.booleanmagic.overboard (<= 1.1), com.ashman.lockinfo (<= 2.0.0-6), sbsettings (<= 3.0.6), com.fuyuchi.missionboardpro (<= 1.3), com.kindadev.nobetaalert, libhide (<< 2.4.1), com.fortysixandtwo.activ8rfix, net.tateu.actisearch, com.jakeashacks.activator, com.udevs.activatorhomebuttoncrashfix, eu.rio-doro.actithemefix
+Filename: ./debs/libactivator_1.9.13_iphoneos-arm.deb
+Size: 1513178
+MD5sum: 68825d6042c027e6cebc27c115342f74SHA1: 0a42ab0a68d86d08ac41c7d5521bfba559343a57SHA256: 080dbd42a0d38defdfd6a4a6c9ec269829e851d9e6e23ffd 
+Section: Tweak
+Description: Centralized gestures, button and shortcut management for iOS
+Author: Ryan Petrich (activator@gmail.com)
+Name: Activator
+Icon: file:///Applications/Activator.app/Icon-Small-modern@2x.png
+size: medium
 
 
+Package: com.domiferrar.libplist-dev
+Version: 2.2.1-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner (maintainer@sbdhi.com)
+Depends: 
+Filename: ./debs/libplist-dev_2.2.1-1_iphoneos-arm.deb
+Size: 6926
+MD5sum: 0ab8a8d3faec88624f172df9b9d3840aSHA1: 7bd1e49ccaba1da2d0dc915940acb024390bfaa1SHA256: cd9b284f06d97b65d3091e6b0b9b7cfcada48aea7dcae284 
+Section: Addons
+Description: 
+Author: 
+Name: libplist-devlibplist
+Icon: 
+size: medium
 
 
+Package: com.domiferrar.libplist-utils
+Version: 2.2.1-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner (maintainer@sbdhi.com)
+Depends: 
+Filename: ./debs/libplist-utils_2.2.1-1_iphoneos-arm.deb
+Size: 4686
+MD5sum: 2718fa6e38af75734f44de495e59f41eSHA1: e7e9a65dbf5da9471e98691be0e8ddbaf87c5a86SHA256: 3301028200f2e68e49ef3fa0c22be79a8d0b0bc69d807e62 
+Section: Addons
+Description: 
+Author: 
+Name: libplist-utils
+Icon: 
+size: medium
 
 
+Package: com.domiferrar.libplist++-dev
+Version: 2.2.1-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner (maintainer@sbdhi.com)
+Depends: 
+Filename: ./debs/libplist++-dev_2.2.1-1_iphoneos-arm.deb
+Size: 3528
+MD5sum: c9decdad6a5b6754ac11377855943dbbSHA1: f2cbd8ae05b07ab35c98124d1d28d843f6c9a703SHA256: 80db9019fd97277f71064bdef178cf25eaa2bf4b1fd205ad
+Section: Addons
+Description: 
+Author: 
+Name: libplist++-dev
+Icon: 
+size: medium
 
 
+Package: com.domiferrar.newterm2
+Version: 2.5
+Architecture: iphoneos-arm
+Maintainer: HASHBANG Productions (support@hbang.ws)
+Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.common (>= 1.16), bash, coreutils, ncurses, system-cmds, gettext-localizations | com.linusyang.localeutf8
+Filename: ./debs/ws.hbang.newterm2_2.5_iphoneos-arm.deb
+Size: 2997392
+MD5sum: b4d5c096f1dfdd72c9a60fe8b1e71d35SHA1: 485c7a766f0a5c174c9a5ff334b47f90e65c6fc0SHA256: b2445cb9356f46b068a60cd3f306913ece0bb1482081dda2 
+Section: Utilities
+Description: A powerful terminal app for iOS
+Author: HASHBANG Productions (support@hbang.ws)
+Name: NewTerm 2
+Icon: https://chariz.com/cdn/icon/newterm/icon@3x.png
+size: medium
+
+
+Package: com.domiferrar.libplist++3
+Version: 2.2.1-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner (maintainer@sbdhi.com)
+Depends: 
+Filename: ./debs/libplist++3_2.2.1-1_iphoneos-arm.deb
+Size: 21496
+MD5sum: 22f3f9abba5fa1a1dc00e4c12e6caf0cSHA1: b2be5edc7d1bb334a76459a6d9c6d8bd6f753197SHA256: ed3bd2dfa665fc2b8ba1fb8a830240014bff6eb435530ab4 
+Section: Addons
+Description: 
+Author: 
+Name: libplist++3
+Icon: 
+size: medium
+
+
+Package: com.domiferrar.libplist3
+Version: 2.2.1-2
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner (maintainer@sbdhi.com)
+Depends: 
+Filename: ./debs/libplist3_2.2.1-2_iphoneos-arm.deb
+Size: 29508
+MD5sum: e7dba978733966c9fabe6c9120f3ba33SHA1: a24a5032a02edba1ae0dd79a019992fa1e34a2fbSHA256: b1c8b37fb2d4565f56cb43c55cfe3740c74e35e351100c48 
+Section: Addons
+Description: 
+Author: 
+Name: libplist3
+Icon: 
+size: medium
+
+
+Package: com.domiferrar.libssl
+Version: 1.1.1i-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner (maintainer@sbdhi.com)
+Depends: ca-certificates
+Filename: ./debs/libssl1.1.1_1.1.1i-1_iphoneos-arm.deb
+Size: 1509384
+MD5sum: 36e347bb6025226c9ede17acb3fdfba6SHA1: 15808262709567804c3d657f7699852d8d794a9dSHA256: b0492def0b29d37280a6b88b027928017eafd911efaa6b60 
+Section: Security
+Description: OpenSSL Libraries for version 1.1.1
+Author: 
+Name: OpenSSL 1.1.1 Libraries
+Icon: 
+size: medium
+
+
+Package: com.domiferrar.libstatusbar
+Version: 1:0.9.9.0-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss (bigboss@thebigboss.org)
+Depends: mobilesubstrate, firmware (>= 4.0), firmware (<< 7.0) | com.rpetrich.rocketbootstrap
+Filename: ./debs/libstatusbar_0.9.9.0-1_iphoneos-arm.deb
+Size: 46026
+MD5sum: 3d7df0afecf4993e3c2a2261d40c346fSHA1: c493c78639f1eb8dfcbbfbc7b906fe27c7257e73SHA256: ccf213aa09796619cfc352d52df08543ea602858ff1743aa
+Section: Development
+Description: 
+Author: phoenix3200 (phoenix3200.dev@gmail.com)
+Name: libstatusbar
+Icon: 
+size: medium
+
+
+Package: com.domiferrar.libappearancecell
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: ConorTheDev (conorthedev@gmail.com)
+Depends: 
+Filename: ./debs/me.conorthedev.libappearancecell_1.0.3_iphoneos-arm.deb
+Size: 27752
+MD5sum: fae4e8ec00c20c8c11bb9427112f569fSHA1: bc653b026bbbcf2d86877f4c16d7418619a57c48SHA256: 418aa5782141a55f9335fe3609f01095d076819271c41dc9 
+Section: Development
+Description: A library for that allows developers to use an iOS 13-style appearance selector in their Preferences.
+Author: ConorTheDev (conorthedev@gmail.com)
+Name: libappearancecell
+Icon: https://api.ios-repo-updates.com/image.php?url=https://repo.dynastic.co/data/static/version/327094967153459200/327094967363174400?size=180
+size: medium
+
+
+Package: com.domiferrar.network-cmds
+Version: 543-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner (maintainer@sbdhi.com)
+Depends: firmware (>= 9.0) | rtadvd
+Filename: ./debs/network-cmds_543-1_iphoneos-arm.deb
+Size: 204076
+MD5sum: 2f420194e50800800a33ab9f064310b6SHA1: 256d09f33abb04ecfd1d5d48e0dabffd660e2df2SHA256: c189a1f37d1c16938089369daa7479b591f98cbff66e978e 
+Section: Networking
+Description: arp, ifconfig, netstat, route, traceroute
+Author: 
+Name: Network Commands
+Icon: 
+size: medium
+
+
+Package: com.domiferrar.openssl
+Version: 1.1.1i-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner (maintainer@sbdhi.com)
+Depends: libssl1.1.1, firmware (>= 11.0) | libssl0.9.8, libssl1.0
+Filename: ./debs/openssl_1.1.1i-1_iphoneos-arm.deb
+Size: 290272
+MD5sum: 396140fd8186dd9115f0aa9f46b4132aSHA1: c846b3f2d0f10fc3cffd4c6dfae0c60ccfb465ecSHA256: d50ba081ab9df8a9517e4b9f194fcdcb6bdf7f283b733285
+Section: Security
+Description: OpenSSL tools
+Author: 
+Name: OpenSSL
+Icon: 
+size: medium
+
+
+Package: com.domiferrar.hacxdaemon
+Version: 3.6
+Architecture: iphoneos-arm
+Maintainer: BigBoss (bigboss@thebigboss.org)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 5.0)
+Filename: ./debs/org.hacx.hacxdaemon_3.6_iphoneos-arm.deb
+Size: 360002
+MD5sum: 233106e752af992b9faa070cda11fbcfSHA1: bf4b32e67cc9dd19fb76067f3513997658034433SHA256: ca084c7179494ed7a162a607dff66cb3661536e8b08f12e3
+Section: Addons
+Description: various helper functions for @hAcx tweaks & apps real-time.
+Author: Yaniv Danan (support@anyring.net)
+Name: hAcx Daemon
+Icon: 
+size: medium
+
+
+Package: com.domiferrar.preferenceloader
+Version: 2.2.6
+Architecture: iphoneos-arm
+Maintainer: BigBoss (bigboss@thebigboss.org)
+Depends: mobilesubstrate
+Filename: ./debs/preferenceloader_2.2.6_iphoneos-arm.deb
+Size: 67660
+MD5sum: 21cf06b4467d9eefaaaf6aefa39a11eeSHA1: 218fd251216d882a12dd9306497b31aa13f621eeSHA256: 53f961438d2e73c9300207e5baeaa045fd962563f192bd46 
+Section: System
+Description: load preferences in style
+Author: Sam Bingner (maintainer@sbdhi.com)
+Name: PreferenceLoader
+Icon: 
+size: medium
+
+
+Package: com.domiferrar.p7zip
+Version: 16.02-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner (maintainer@sbdhi.com)
+Depends: 
+Filename: ./debs/p7zip_16.02-1_iphoneos-arm.deb
+Size: 1821904
+MD5sum: 4f6a2305f65fa5b89d72d966701202fbSHA1: 196141cddc23f0e7f59fa07296effeaccbae832cSHA256: 248bbc124d951bb45211aa06f72238c1d20959fdafb3b486 
+Section: Archiving
+Description: claims to be a good compressor
+Author: 
+Name: 7-zip (POSIX)
+Icon: 
+size: medium
+
+
+Package: com.domiferrar.pcre2
+Version: 10.35-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner (maintainer@sbdhi.com)
+Depends: 
+Filename: ./debs/pcre2_10.35-1_iphoneos-arm.deb
+Size: 320356
+MD5sum: 6eb8fcfe937e5e997828066368fad0fdSHA1: 0ed5930c61ab4d9cbce991141d63549c0e30384eSHA256: a1ced8cc16865e8022d0c290f29d8b99100cc0a566c263b4 
+Section: Development
+Description: Perl-compatible regular expressions
+Author: 
+Name: pcre2
+Icon: 
+size: medium
+
+
+Package: com.domiferrar.sudo
+Version: 1.8.27-4
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner (maintainer@sbdhi.com)
+Depends: 
+Filename: ./debs/sudo_1.8.27-4_iphoneos-arm.deb
+Size: 459030
+MD5sum: 3a2a09609adf87988c8dac9d71d42a02SHA1: f736b65e0c925510062b03cf9d1ad1d1c1c14cfeSHA256: 5793e8d57e3a9d4cd92e36263d9d053812081ba5f549285d 
+Section: Administration
+Description: temporarily assume root priviledges
+Author: 
+Name: Sudo
+Icon: 
+size: medium
+
+
+Package: com.domiferrar.unrar
+Version: 5.6.4-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner (maintainer@sbdhi.com)
+Depends: 
+Filename: ./debs/unrar_5.6.4-1_iphoneos-arm.deb
+Size: 151186
+MD5sum: b13db298fa499bef3fe1aeedb777eacfSHA1: e62ef92dc94a0f6c15ee5a4bc7898fb6e6de5bfdSHA256: 4560e663ebdc5da828c0225993a57dd459d90269e9433153 
+Section: Archiving
+Description: 
+Author: 
+Name: unrar
+Icon: 
+size: medium
+
+
+Package: com.domiferrar.unzip
+Version: 6.0+deb9u1-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner (maintainer@sbdhi.com)
+Depends: 
+Filename: ./debs/unzip_6.0+deb9u1-1_iphoneos-arm.deb
+Size: 135956
+MD5sum: 02a5ff31278ba73decf158c36ed408e5SHA1: 552c07d7a8c324d10bdf76b54b7b9a6ff429e16dSHA256: c29de569d9085c99602feba869b8d7ba0654f5e66805ee42
+Section: Archiving
+Description: de-compesses files in zip format
+Author: 
+Name: unzip
+Icon: 
+size: medium
+
+
+Package: com.domiferrar.alderis
+Version: 1.1.2
+Architecture: iphoneos-arm
+Maintainer: HASHBANG Productions (support@hbang.ws)
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), uikittools
+Filename: ./debs/ws.hbang.alderis_1.1.2_iphoneos-arm.deb
+Size: 2850542
+MD5sum: 347e923ae9dd427f938d3de219a339ceSHA1: 4d5a48a6d97ad72aa1b801e9ada1805c76b7399fSHA256: 4330fc63052ea3ccda0ad24e4d51143579847dffe1157ecf
+Section: Development
+Description: Color picker support library for tweaks
+Author: HASHBANG Productions (support@hbang.ws)
+Name: Alderis Color Picker
+Icon: https://chariz.com/cdn/icon/alderis/icon@3x.png
+size: medium
+
+
+Package: com.domiferrar.common
+Version: 1.16
+Architecture: iphoneos-arm
+Maintainer: HASHBANG Productions (support@hbang.ws)
+Depends: firmware (<< 8.0) | mobilesubstrate (>= 0.9.7000) | com.rpetrich.rocketbootstrap, firmware (<< 8.0) | mobilesubstrate (<< 99) | com.rpetrich.rocketbootstrap
+Filename: ./debs/ws.hbang.common_1.16_iphoneos-arm.deb
+Size: 387784
+MD5sum: e0951d3914bbf5493fe2bc3f3ece6f58SHA1: a6b680039e37a0ed85de6bba5a636191f90dd4c4SHA256: 94d22ba349e1a2844e5239854fb3c91d502cf00b3038076f 
+Section: Development
+Description: Support library for tweaks
+Author: HASHBANG Productions (support@hbang.ws)
+Name: Cephei Tweak Support
+Icon: https://chariz.com/cdn/icon/cephei/icon@3x.png
+size: medium
+
+
+Package: com.domiferrar.zip
+Version: 2.32-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner (maintainer@sbdhi.com)
+Depends: 
+Filename: ./debs/zip_2.32-1_iphoneos-arm.deb
+Size: 89142
+MD5sum: 103f5d5003a7a8cd8bc4ab9cd9c5a69bSHA1: 2e53cf7a06ed2646a6c65d7afec411185941a547SHA256: a6197bae6446e46b871eebc0082c2d9f3fe072970072e241 
+Section: Archiving
+Description: standard Windows compression tool
+Author: 
+Name: zip
+Icon: 
+size: medium
+
+
+Package: com.domiferrar.zebra
+Version: 1.1.16
+Architecture: iphoneos-arm
+Maintainer: Wilson Styres (wilson@styres.me)
+Depends: 
+Filename: ./debs/xyz.willy.zebra_1.1.16_iphoneos-arm.deb
+Size: 27476856
+MD5sum: 621883dfa4d4c7e943ea90b8914891e2SHA1: de9fb7a21b2db4ce2193f43f4eede89fd51ac65fSHA256: 4063d33cd31e327e6ec06f15c6d9afb551ebbe53bbc848f9 
+Section: Tweaks
+Description: 
+Author: Wilson Styres (wilson@styres.me)
+Name: Zebra 
+Icon: https://getzbra.com/assets/zeeb.svg
+size: medium
 
 
 
