@@ -1,18 +1,66 @@
-Package: com.domiferrar.blanca
-Version: 1.0.1
+Package: com.domiferrar.applist
+Version: 1.5.16
 Architecture: iphoneos-arm
-Maintainer: Phoenix Dev <phnxdev07@gmail.com>
-Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 13.0)
-Filename: ./debs/com.vinit.blanca_1.0.1_iphoneos-arm.deb
-Size: 81582
-MD5sum: def93a626d7f9400e6dc759d5bb2be7b
-SHA1: 5c7bd8933409a23e2f5a0be29449348e26d9b11b
-SHA256: 34a6d2e23c148b2c08f2e3b48fc6a47f9322e5891c561515f93a2d5e9e2b1a23
+Maintainer:
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0)
+Conflicts: xcom.a3tweaks.polus (<< 2.0.7)
+Filename: ./debs/applist_1.5.16_iphoneos-arm.deb
+Size: 186806
+MD5sum: 131f7031b4ca5e9d1a48b2485fdaabc6SHA1: 6007620cc7ceb0313432389efe0b93c461d44512SHA256: d0e4c7c5de6b092d586ca87f7893ef7ee379f8adbe2eea25
+Section: System
+Description: Allow extensions to read the list of installed apps
+Author: Ryan Petrich<rpetrich@gmail.com>
+Name:AppList
+Icon:
+size: medium
+
+
+Package: com.domiferrar.basic-cmds
+Version: 48-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner<maintainer@sbdhi.com>
+Depends: dpkg (>= 1.14.25-8)
+Filename: ./debs/basic-cmds_48-1_iphoneos-arm.deb
+Size: 17250
+MD5sum: 63da511e4ae491ea059e25e43f8d784cSHA1: de430676c12fec2cf357e0e09b8b15903b02b03aSHA256: 20da487e554bc725e914cfa95afe2b1a68d83d70a3258518
+Section: Utilities
+Description: 
+Author: Sam Bingner<maintainer@sbdhi.com>
+Name: basic-cmds
+Icon:
+size: medium
+
+
+Package: com.domiferrar.coolcc
+Version: 1:4.0
+Architecture: iphoneos-arm
+Maintainer: 4nni3 (4nni3.14@gmail.com)
+Depends: mobilesubstrate, preferenceloader, com.creaturesurvive.libcscolorpicker
+Filename: ./debs/com.4nni3.coolcc_4.0_iphoneos-arm.deb
+Size: 52216
+MD5sum: 777148d93825c49ec1d613923d2c63b6SHA1: b7eb67f6226d01ad5c5cb5672ca3324bda6cceb9SHA256: 61ee35097649798daef425602a90aeee4a3b7754602c6288
 Section: Tweaks
-Description:  A beautiful tweak!
-Author: Phoenix Dev <phnxdev07@gmail.com>
-Name: Blanca
-Icon: https://phnx-dev.github.io/repo/icons/blanca.png
+Description: Makes ControlCenter cool.
+Author: 4nni3 (4nni3.14@gmail.com)
+Name: CoolCC
+Icon: https://repo.packix.com/api/Packages/5dd9b745ce98db001aa0db9c/icon/download?size=medium
+size: medium
+
+
+Package: com.domiferrar.flipswitch
+Version: 1.0.16
+Architecture: iphoneos-arm
+Maintainer: rpetrich & a3tweaks (flipswitch@gmail.com)
+Depends: mobilesubstrate (>= 0.9.5001), com.rpetrich.rocketbootstrap (>= 1.0.9) | firmware (<< 7.0)
+Filename: ./debs/com.a3tweaks.flipswitch_1.0.16_iphoneos-arm.deb
+Size: 478306
+MD5sum: 3af8a8ab31f2c55b4861a9d32258638aSHA1: ef60b6fed1effa0e21d1e837d72e8353594f6d40SHA256: d63929a87dec0b9e4bc8aa691ffd4b8fc384777c30902e72
+Section: System
+Description: Centralized toggle system for iOS
+Author: rpetrich (flipswitch@gmail.com)
+Name: Flipswitch
+Icon: file:///Applications/Preferences.app/icon-table.png
+size: medium
 
 
 Package: com.domiferrar.betterccxi
@@ -30,6 +78,55 @@ Description:  A beautiful tweak!
 Author: ATWiiks
 Name: BetterCCXI
 Icon: https://repo.packix.com/api/Packages/5b349f7279d78d001022d937/icon/download?
+size: medium
+
+
+Package: com.domiferrar.plutil
+Version: 0.2.1
+Architecture: iphoneos-arm
+Maintainer: Samuel Bingner
+Depends: firmware (>= 2.0)
+Conflicts: com.ericasadun.utilities
+Filename: ./debs/com.bingner.plutil_0.2.1_iphoneos-arm.deb
+Size: 33938
+MD5sum: 0a34a71416321b34a7875557ce3c5581SHA1: 47f81fc7430f80d3881bdcbfc449538a4e9bc6eeSHA256: 5235352b5d968c9ac6151f287eae44fb44f2db8b7351b48f
+Section: System
+Description: plutil as from erica sadun
+Author: Samuel Bingner
+Name: plutil
+Icon:
+size: medium
+
+
+Package: com.domiferrar.libscribble
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Boo
+Depends:
+Filename: ./debs/com.boo.libscribble_1.0.0_iphoneos-arm.deb
+Size: 17562
+MD5sum: b8f447e76088abb272918736fa23dec4SHA1: 396961d18a866d96f3dada80a997664a4826640fSHA256: 37569d1a1d15e491206bec16e94f0b56ce64ee7498f505fe
+Section: System
+Description: Scribble gesture library
+Author: Boo
+Name: libScribble
+Icon:
+size: medium
+
+
+Package: com.domiferrar.foldercustomizer
+Version: 1.2.1-3
+Architecture: iphoneos-arm
+Maintainer: BigBoss(bigboss@thebigboss.org)
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
+Filename: ./debs/com.broganminer.foldercustomizer_1.2.1-3_iphoneos-arm.deb
+Size: 90536
+MD5sum: 8744c3bc6f9bb695687fb0793ffef6b2SHA1: 97b7b2cb37f7b7f4785c387c7f7e41dd7186c208SHA256: 5e739ed686a657a51e51975d455af3d37e942eacffb7e959
+Section: Themes
+Description: Customize the look of your folders.
+Author: Brogan Miner(Broganminer22@gmail.com)
+Name: Folder Customizer
+Icon: http://cydia.saurik.com/icon@2x/com.broganminer.foldercustomizer.png
 size: medium
 
 
@@ -69,463 +166,6 @@ Icon:
 size: medium
 
 
-Package: com.domiferrar.accent
-Version: 1.4.0
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader, ws.hbang.common, applist
-Filename: ./debs/com.ivanc.accent_1.4.0_iphoneos-arm.deb
-Size: 55090
-MD5sum: f6eba19b5cf7f28f761386211d4d5909
-SHA1: c768b49879bb9bab4857513310d126b8b746be65 
-SHA256: d04f4ee97be07df18b53727c03c006174e81abc432309d762e2cab6a7663ead1
-Section: Tweaks
-Description: iOS accent colors in macOS style!
-Author: Ivan Cristina <ivancristina5@gmail.com>
-Name: Accent
-Icon: http://cydia.saurik.com/icon@2x/com.ivanc.accent.png
-size: medium
-
-
-Package: com.domiferrar.badgebar
-Version: 1.3.0
-Architecture: iphoneos-arm
-Maintainer: HackYouriphone <repo@hackyouriphone.org>
-Depends: mobilesubstrate, ws.hbang.common (>= 1.14), org.thebigboss.libcolorpicker | com.hackyouriphone.libcolorpicker
-Conflicts: me.conorthedev.pastel, me.conorthedev.dotto+
-Filename: ./debs/com.hackyouriphone.badgebar_1.3.0_iphoneos-arm.deb
-Size: 168134
-MD5sum: 5d58a1aaaeddcb1e315ddbfdc4bac45c
-SHA1: 4e105ce3c480b108d0071b9ae9c8f80e787e3fd1
-SHA256: c53eee03eda6781e54cda34216e785302b284759d0c2878c8d06b0f564acb227
-Section: Themes
-Description: Change your ugly badge notification!
-Author: JannikCrack <repo@hackyouriphone.org>
-Name: BadgeBar
-Icon: https://twickd.com/cdn/screenshots/370ddecd8e931bb0a086abe22df950a8/default
-size: medium
-
-
-Package: com.domiferrar.applist
-Version: 1.5.16
-Architecture: iphoneos-arm
-Maintainer:
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0)
-Conflicts: xcom.a3tweaks.polus (<< 2.0.7)
-Filename: ./debs/applist_1.5.16_iphoneos-arm.deb
-Size: 186806
-MD5sum: 131f7031b4ca5e9d1a48b2485fdaabc6SHA1: 6007620cc7ceb0313432389efe0b93c461d44512SHA256: d0e4c7c5de6b092d586ca87f7893ef7ee379f8adbe2eea25
-Section: System
-Description: Allow extensions to read the list of installed apps
-Author: Ryan Petrich<rpetrich@gmail.com>
-Name:AppList
-Icon:
-size: medium
-
-
-Package: com.domiferrar.basic-cmds
-Version: 48-1
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner<maintainer@sbdhi.com>
-Depends: dpkg (>= 1.14.25-8)
-Filename: ./debs/basic-cmds_48-1_iphoneos-arm.deb
-Size: 17250
-MD5sum: 63da511e4ae491ea059e25e43f8d784cSHA1: de430676c12fec2cf357e0e09b8b15903b02b03aSHA256: 20da487e554bc725e914cfa95afe2b1a68d83d70a3258518
-Section: Utilities
-Description: 
-Author: Sam Bingner<maintainer@sbdhi.com>
-Name: basic-cmds
-Icon:
-size: medium
-
-
-Package: com.domiferrar.systeminfo
-Version: 2.7.2-2
-Architecture: iphoneos-arm
-Maintainer: ARX8x
-Depends: 
-Filename: ./debs/xyz.xninja.systeminfo_2.7.2-2_iphoneos-arm.deb
-Size: 427606
-MD5sum: 9fd6711520c9221d4092cc179863e19dSHA1: d056ce60898d08b898772ddc8e0efc241e17da58SHA256: 74fdae3fad007f0f3f839558957cc3fe59984ddd83a4b4ab
-Section: Tweaks
-Description: System information in Settings app > General > About, and other sections. Set boot-nonce, save SHSH, battery info etc
-Author: ARX8x
-Name: System Info
-Icon:
-size: medium
-
-
-Package: com.domiferrar.cleanhomescreen
-Version: 1.0.4
-Architecture: iphoneos-arm
-Maintainer: Justin Proulx
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/xyz.royalapps.cleanhomescreen_1.0.4_iphoneos-arm.deb
-Size: 32604
-MD5sum: d9b26c79f3897201ee080e6104ca52c4SHA1: a0c24819224616c3e016d865a7ca242af4b4c02bSHA256: 66772797b26eb6833c395bc74145937ee78bbbcb75ca0a4f
-Section: Tweaks
-Description: clean your homescreen 
-Author: Justin Proulx
-Name: CleanHomeScreen
-Icon: https://repo-cdn.dynastic.co/87965766762102785.ae9163d2d99923564489d0bd47b889fc-256
-size: medium
-
-
-Package: com.domiferrar.grupi
-Version: 2.0
-Architecture: iphoneos-arm
-Maintainer: HackYouriPhone<repo@hackyouriphone.org>
-Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 11.0)
-Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
-Filename: ./debs/com.hackyouriphone.grupi_2.0_iphoneos-arm.deb
-Size: 185294
-MD5sum: 2d824b7ca9f4a939e56276eee0d24852SHA1: 454d513441224fd1d3b64d238696a4fbbd4daffdSHA256: e1af6889c168512705b9977274cefdb8ea9fccc8b47c0086
-Section: Tweaks
-Description: Grouped Notifications for iOS 11 ~ iOS 13
-Author: Soongyu Kwon & Timeloop<repo@hackyouriphone.org>
-Name: Grupi
-Icon: https://repo.packix.com/api/Packages/5e1749f1500e06001a9a389d/icon/download?size: medium
-size: medium
-
-
-Package: com.domiferrar.translock
-Version: 1.0.4
-Architecture: iphoneos-arm
-Maintainer: MrGcGamer
-Depends: mobilesubstrate, preferenceloader, firmware (>= 12.0), ws.hbang.common (>= 1.14)
-Filename: ./debs/com.mrgcgamer.translock_1.0.4_iphoneos-arm.deb
-Size: 883342
-MD5sum: c267e31e7da6d28f7ae4e410ec1e3de1SHA1: 4a3aa1d4b5d3da2927832c4eb1df0dc15c50b888SHA256: b876842d882e388a38ce5285674771bc76d84db92581591d
-Section: Tweaks
-Description: A new clean look for your passcode screen!
-Author: MrGcGamer
-Name: TransLock
-Icon: https://repo.packix.com/api/Packages/5dc08ec779b37c001a1e3d9f/icon/download?size: medium
-size: medium
-
-
-Package: com.domiferrar.nopassafterrespring
-Version: 3.0
-Architecture: iphoneos-arm
-Maintainer: @_AppleExpert<aple.enterpriseIThelp@gmail.com>
-Depends:
-Filename: ./debs/com.appleenterprise.nopassafterrespring_3.0_iphoneos-arm.deb
-Size: 890
-MD5sum: 0d97c0d3a60e58ee50cfe6f5bfb74c70SHA1: 7c533436559843338760a9e4a0ea2e304463e212SHA256: 9b0139d523ec1fa5bca0cf2b889c5ba367c2d0418deeafb5
-Section: Tweaks
-Description: Disables passcode after a respring. To fully remove tweak, remove the tweak in your package manager and restart your iPhone. If you don’t restart your device, the device will still disable the passcode after respring.
-Author: @_AppleExpert<aple.enterpriseIThelp@gmail.com>
-Name: NoPassAfterRespring
-Icon: 
-size: medium
-
-
-Package: com.domiferrar.cercube
-Version: 5.2.5
-Architecture: iphoneos-arm
-Maintainer: Majd Alfhaily
-Depends: firmware (>= 9.0), mobilesubstrate, com.rpetrich.rocketbootstrap
-Conflicts: me.freemanrepo.cercube, com.unlimapps.ytpp, com.yourepo.goldcydia.cercube3ios789, com.yourepo.mohadu31.cercube3ios789, com.yourepo.canolli.cercube3ios789, com.repo.xarold.com.cercube3, com.hackyouriphone.cercube3, com.biteyourapple.net.cercube3, com.yourepo.arabicydia.cercube2, me.alfhaily.adblockforyoutube, me.alfhaily.cercube.lib, com.pulandres.cercubecrack
-Filename: ./debs/me.alfhaily.cercube_5.2.5_iphoneos-arm.deb
-Size: 5651786 
-MD5sum: 57cd8228f08195a8858396cb43a0781dSHA1: 297c2583d0e15571d473681dd47ca0978e6c4c1fSHA256: 34bb1bdc564a19aeef1bae4ad8b624c8d3444c920ba79e2d
-Section: Tweaks
-Description: Download YouTube videos and more!
-Author: Majd Alfhaily<freemanrepo@me.com>
-Name: Cercube for Youtube
-Icon: https://apt.alfhaily.me/cdn/assets/cercube-icon.png
-size: medium
-
-
-Package: com.domiferrar.evilscheme
-Version: 0.2.4
-Architecture: iphoneos-arm
-Maintainer: Lorenzo Pane
-Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0) 
-Filename: ./debs/net.pane.l.evilscheme_0.2.4_iphoneos-arm.deb
-Size: 178606
-MD5sum: 7a6ceb31e5f47b6c916c14783a46a689SHA1: 81e3f7a385718e91376efb81519741fd45081ea2SHA256: b08366b6115ce4a9c5923da3a27e7450e84a0efa13d8ea64
-Section: Tweaks
-Description: Manage default browser, navigation app, package manager, and more!
-Author: Lorenzo Pane
-Name: EvilScheme
-Icon: https://repo-cdn.dynastic.co/319883617109016577.b25236ae12e85a97cfb7922259bddc5b-332
-size: medium
-
-
-Package: com.domiferrar.libertylite
-Version: 0.2.10
-Architecture: iphoneos-arm
-Maintainer: Ryley Angus
-Depends: mobilesubstrate, preferenceloader, applist
-Filename: ./debs/com.ryleyangus.libertylite_0.2.10_iphoneos-arm.deb
-Size: 78396
-MD5sum: 97147cdd1eaf8ae06becd003e82e0728SHA1: 7c64a20b289a25832057e7a39dc1e80a1f8367d5SHA256: dfd72bafdbb959041f66fc4507f0493c3deed4326a25277f
-Section: Tweaks
-Description: A (lite) general purpose jailbreak detection bypass patch. Use the Liberty entry in the Settings app to block (most) apps from detecting your jailbreak. Disabling Substrate/Substitute is not supported, so certain apps (PayPal, HSBC HK) will still be problematic.
-Author: Ryley Angus
-Name: Liberty Lite
-Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref.png
-size: medium
-
-
-Package: com.domiferrar.cylinder
-Version: 1.1
-Architecture: iphoneos-arm
-Maintainer: BigBoss(bigboss@thebigboss.org)
-Depends: firmware (>= 3.0), mobilesubstrate (>= 0.9.5000), preferenceloader
-Filename: ./debs/com.r333d.cylinder_1.1_iphoneos-arm.deb
-Size: 504318
-MD5sum: 0d29a93c3e5f0a3f15585865a089a547SHA1: c6e51e1af2f059d7530f41eaf3f1da6597af1a67SHA256: cf6ddcf5cf0b9022dacfdec49402d0969ed72484b509097a
-Section: Tweaks
-Description: Make your icons dance
-Author: Reed Weichler(cydia@gmail.com)
-Name: Cylinder
-Icon: file:///Library/PreferenceBundles/CylinderSettings.bundle/Icon@2x.png
-size: medium
-
-
-Package: com.domiferrar.icanreadyou
-Version: 1.0.2
-Architecture: iphoneos-arm
-Maintainer: CydiaGeek(lucaluca86@aol.com)
-Depends: mobilesubstrate
-Filename: ./debs/com.yourepo.cydiageek.icanreadyou_1.0.2_iphoneos-arm.deb
-Size: 8636
-MD5sum: fe482cbaf6da4373d7368c7f51dff8eaSHA1: 9c133248f0b9d0ba04a6b4f020025bb4a2097a0eSHA256: 9251d9aa48422d82747b072c25731d3c337103e4788d8d7d
-Section: Tweaks
-Description: You can always Read the Received WhatsApp Deleted Messages for All on Your Device! Soon also added as option on ABetterPrivacyforWhatsApp!
-Author: CydiaGeek(lucaluca86@aol.com)
-Name: ICanReadYou
-Icon: https://www.yourepo.com/images/sections/users/33.png
-size: medium
-
-
-Package: com.domiferrar.magmaevo
-Version: 2.0.6
-Architecture: iphoneos-arm
-Maintainer: HackYourIphone(repo@hackyouriphone.org)
-Depends: mobilesubstrate, firmware (>= 12.0), preferenceloader, com.opa334.ccsupport (>= 1.2.3), com.spark.libsparkcolourpicker | com.hackyouriphone.libsparkcolourpicker
-Filename: ./debs/com.hackyouriphone.magmaevo_2.0.6_iphoneos-arm.deb
-Size: 1519880 
-MD5sum: a2d7948a0e3d3726ea565b6c7e8acab7SHA1: eac9c7b19401808f3e2e71a5e2ab96bbb70d123cSHA256: cac63a6ef6100470ec8ca989bf4a174f2f01226af3184ecc
-Section: Themes
-Description: Your Control Center. Redefined.
-Author: NoisyFlake(repo@hackyouriphone.org)
-Name: Magma Evo
-Icon: https://chariz.com/cdn/icon/magma-evo/icon@3x.png
-size: medium
-
-
-Package: com.domiferrar.filza
-Version: 3.8.0-23
-Architecture: iphoneos-arm
-Maintainer: BigBoss(bigboss@thebigboss.org)
-Depends: firmware (>= 7.0), zip, unzip, gzip, unrar, p7zip
-Filename: ./debs/com.tigisoftware.filza_3.8.0-23_iphoneos-arm.deb
-Size: 12886300
-MD5sum: 4ee978364d8b3f1c1369cbf32fe58649SHA1: 18655447d6139b4f90ba1874c15b79bb7f0bec7dSHA256: 1ac7b7a5ce0c2bdac718ab1bce1bdf5c4f0d53460e49fb5f
-Section: Utilities
-Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
-Author: TIGI Software(satashi2009@gmail.com)
-Name: Filza File Manager
-Icon: http://cydia.saurik.com/icon@2x/com.tigisoftware.filza.png
-size: medium
-
-
-Package: com.domiferrar.foldercustomizer
-Version: 1.2.1-3
-Architecture: iphoneos-arm
-Maintainer: BigBoss(bigboss@thebigboss.org)
-Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
-Filename: ./debs/com.broganminer.foldercustomizer_1.2.1-3_iphoneos-arm.deb
-Size: 90536
-MD5sum: 8744c3bc6f9bb695687fb0793ffef6b2SHA1: 97b7b2cb37f7b7f4785c387c7f7e41dd7186c208SHA256: 5e739ed686a657a51e51975d455af3d37e942eacffb7e959
-Section: Themes
-Description: Customize the look of your folders.
-Author: Brogan Miner(Broganminer22@gmail.com)
-Name: Folder Customizer
-Icon: http://cydia.saurik.com/icon@2x/com.broganminer.foldercustomizer.png
-size: medium
-
-
-Package: com.domiferrar.betteralarm
-Version: 1.2.5
-Architecture: iphoneos-arm
-Maintainer: HackYourIphone(repo@hackyouriphone.org)
-Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, com.spark.libsparkcolourpicker | com.hackyouriphone.libsparkcolourpicker
-Filename: ./debs/com.hackyouriphone.betteralarm_1.2.5_iphoneos-arm.deb
-Size: 74040
-MD5sum: 4ece6eac953f84e8a3c117b0dd2a3a1bSHA1: a16ffb20d73925537e869db232078f1578a47f31SHA256: c7c159ce3bb84afe49c9a0227404763bc222c9485e821d56
-Section: Tweaks
-Description: A beautiful timer and alarm screen
-Author: NoisyFlake(repo@hackyouriphone.org)
-Name: Better Alarm
-Icon: https://chariz.com/cdn/icon/betteralarm/icon@2x.png
-size: medium
-
-
-Package: com.domiferrar.realcc
-Version: 1.0.2
-Architecture: iphoneos-arm
-Maintainer: BigBoss(bigboss@thebigboss.org)
-Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.jakeashacks.realcc_1.0.2_iphoneos-arm.deb
-Size: 6602
-MD5sum: 4c1ac72b58ddb667894ede08b7c74d61SHA1: 1040509962ddae7abf0b6f6fdda99970eaf51edeSHA256: e9944c02cf9afacc4b57aaf92a92d5ad36461d9ec8323a37
-Section: Tweaks
-Description: Actually disable Wi-Fi from the iOS 11 CC
-Author: Jake James(jakeashacks@gmail.com)
-Name: RealCC
-Icon: 
-size: medium
-
-
-Package: com.domiferrar.fivedock13
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: P2KDev(p2kdev@gmail.com)
-Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
-Filename: ./debs/com.p2kdev.fivedock13_1.0_iphoneos-arm.deb
-Size: 6878
-MD5sum: f71a934002150c4746ac95b3c2b3ee32SHA1: d4e004fa891148b82c713d7c8cf19616a5afaf68SHA256: fefbe5d148dfe1240a625b48bb9d8aec8b45cc7c31743a06
-Section: Themes
-Description: Five Icons on your Dock!
-Author: P2KDev(p2kdev@gmail.com)
-Name: FiveDock13
-Icon: 
-size: medium
-
-
-Package: com.domiferrar.altdaemon
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Riley Testut
-Depends: 
-Filename: ./debs/com.rileytestut.altdaemon_1.0_iphoneos-arm.deb
-Size: 833900
-MD5sum: e4545b2b080ae62732ace88028032d18SHA1: fd80d9dafdca689e2f02afc307af4d5cb3956fe5SHA256: 4fde48e7c51a86d8f81116004f423e5199f18af05e5d6e1e
-Section: System
-Description: AltDaemon allows AltStore to install and refresh apps without a computer.
-Author: Riley Testut
-Name: AltDeamon
-Icon: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.idownloadblog.com%2F2020%2F10%2F06%2Faltdaemon-release%2F&psig=AOvVaw0Tp74RG_f8u1J01W8719em&ust=1617898520556000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNi18OfD7O8CFQAAAAAdAAAAABAD
-size: medium
-
-
-Package: com.domiferrar.coolcc
-Version: 1:4.0
-Architecture: iphoneos-arm
-Maintainer: 4nni3 (4nni3.14@gmail.com)
-Depends: mobilesubstrate, preferenceloader, com.creaturesurvive.libcscolorpicker
-Filename: ./debs/com.4nni3.coolcc_4.0_iphoneos-arm.deb
-Size: 52216
-MD5sum: 777148d93825c49ec1d613923d2c63b6SHA1: b7eb67f6226d01ad5c5cb5672ca3324bda6cceb9SHA256: 61ee35097649798daef425602a90aeee4a3b7754602c6288
-Section: Tweaks
-Description: Makes ControlCenter cool.
-Author: 4nni3 (4nni3.14@gmail.com)
-Name: CoolCC
-Icon: https://repo.packix.com/api/Packages/5dd9b745ce98db001aa0db9c/icon/download?size=medium
-size: medium
-
-
-Package: com.domiferrar.flipswitch
-Version: 1.0.16
-Architecture: iphoneos-arm
-Maintainer: rpetrich & a3tweaks (flipswitch@gmail.com)
-Depends: mobilesubstrate (>= 0.9.5001), com.rpetrich.rocketbootstrap (>= 1.0.9) | firmware (<< 7.0)
-Filename: ./debs/com.a3tweaks.flipswitch_1.0.16_iphoneos-arm.deb
-Size: 478306
-MD5sum: 3af8a8ab31f2c55b4861a9d32258638aSHA1: ef60b6fed1effa0e21d1e837d72e8353594f6d40SHA256: d63929a87dec0b9e4bc8aa691ffd4b8fc384777c30902e72
-Section: System
-Description: Centralized toggle system for iOS
-Author: rpetrich (flipswitch@gmail.com)
-Name: Flipswitch
-Icon: file:///Applications/Preferences.app/icon-table.png
-size: medium
-
-
-Package: com.domiferrar.plutil
-Version: 0.2.1
-Architecture: iphoneos-arm
-Maintainer: Samuel Bingner
-Depends: firmware (>= 2.0)
-Conflicts: com.ericasadun.utilities
-Filename: ./debs/com.bingner.plutil_0.2.1_iphoneos-arm.deb
-Size: 33938
-MD5sum: 0a34a71416321b34a7875557ce3c5581SHA1: 47f81fc7430f80d3881bdcbfc449538a4e9bc6eeSHA256: 5235352b5d968c9ac6151f287eae44fb44f2db8b7351b48f
-Section: System
-Description: plutil as from erica sadun
-Author: Samuel Bingner
-Name: plutil
-Icon:
-size: medium
-
-
-Package: com.domiferrar.libscribble
-Version: 1.0.0
-Architecture: iphoneos-arm
-Maintainer: Boo
-Depends:
-Filename: ./debs/com.boo.libscribble_1.0.0_iphoneos-arm.deb
-Size: 17562
-MD5sum: b8f447e76088abb272918736fa23dec4SHA1: 396961d18a866d96f3dada80a997664a4826640fSHA256: 37569d1a1d15e491206bec16e94f0b56ce64ee7498f505fe
-Section: System
-Description: Scribble gesture library
-Author: Boo
-Name: libScribble
-Icon:
-size: medium
-
-
-Package: com.domiferrar.BigBoss
-Version: 0.3-4
-Architecture: iphoneos-arm
-Maintainer: BigBoss (bigboss@thebigboss.org)
-Depends: firmware (>= 8.0)
-Filename: ./debs/
-Size: 162764
-MD5sum: 97d070c17710f8d1815700eaed213608SHA1: e6eb64152ec3883538ec7e8cd62af68096499497SHA256: 643f6c4a02c48ca49d544fe5109f9af5b18aacbd61af487f
-Section: Development
-Description: App notification library.
-Author: CokePokes (cokepokes@gmail.com)
-Name: libnotifications
-Icon:
-size: medium
-
-
-Package: com.domiferrar.libcscolorpicker
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: CreatureSurvive (support@creaturecoding.com)
-Depends:
-Filename: ./debs/com.creaturesurvive.libcscolorpicker_1.0_iphoneos-arm.deb
-Size: 147634
-MD5sum: c1708a0c541857d872f1a449ffb0131dSHA1: 79900c54a9a850086359aea757ed5f8025047230SHA256: eb1d8c71cd68eaf949029d73bbc775b27fca0b90b65ba4bd
-Section: System
-Description: A minimal color picker library for developers
-Author: CreatureSurvive (support@creaturecoding.com)
-Name: libCSColorPicker
-Icon:
-size: medium
-
-
-Package: com.domiferrar.appstoreplusplus
-Version: 0.9.11
-Architecture: iphoneos-arm
-Maintainer: HackYourIphone (repo@hackyouriphone.org)
-Depends: firmware (>= 11.0), mobilesubstrate, com.rpetrich.rocketbootstrap | com.hackyouriphone.rocketbootstrap
-Filename: ./debs/com.hackyouriphone.appstoreplusplus_0.9.11_iphoneos-arm.deb
-Size: 612808
-MD5sum: c698397a6cebbb14a4edc78dc3c81a77SHA1: 628684aed2d2e8912174a7c56468f809be2de9f0SHA256: 1ad9136d2685b7a1e1469cdaa8d7773096ce2b18e0827861
-Section: Tweaks
-Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-13.3.1
-Author: CokePokes (repo@hackyouriphone.org)
-Name: AppStore++
-Icon: shorturl.at/a3578
-size: medium
-
-
 Package: com.domiferrar.betteralarm
 Version: 1.2.5
 Architecture: iphoneos-arm
@@ -558,22 +198,6 @@ Icon:
 size: medium
 
 
-Package: com.domiferrar.sedfix
-Version: 100.2
-Architecture: iphoneos-arm
-Maintainer: HackYouriPhone (repo@hackyouriphone.org)
-Depends: firmware (>= 12.0), mobilesubstrate, org.thebigboss.libcolorpicker | com.hackyouriphone.libcolorpicker | com.hackyouriphone.libcolorpicker
-Filename: ./debs/com.hackyouriphone.sedfix_100.2_iphoneos-arm.deb
-Size: 170598
-MD5sum: c6a8b14d5f5e1d322550acf0d693e28bSHA1: f8fb0ec86144b90d073ca3c06de650adc620bceaSHA256: fa61461fd7854965ff0fec1d3bb1b41166a0ea0a05352cc5
-Section: Addons
-Description: Package to get working Tweaks, IMPORTANT to future tweaks, install please.
-Author: Pulandres (repo@hackyouriphone.org)
-Name: DebsCompatibility
-Icon: 
-size: medium
-
-
 Package: com.domiferrar.otadisabler
 Version: 0.1-9
 Architecture: iphoneos-arm
@@ -590,6 +214,24 @@ Icon:
 size: medium
 
 
+Package: com.domiferrar.accent
+Version: 1.4.0
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader, ws.hbang.common, applist
+Filename: ./debs/com.ivanc.accent_1.4.0_iphoneos-arm.deb
+Size: 55090
+MD5sum: f6eba19b5cf7f28f761386211d4d5909
+SHA1: c768b49879bb9bab4857513310d126b8b746be65 
+SHA256: d04f4ee97be07df18b53727c03c006174e81abc432309d762e2cab6a7663ead1
+Section: Tweaks
+Description: iOS accent colors in macOS style!
+Author: Ivan Cristina <ivancristina5@gmail.com>
+Name: Accent
+Icon: http://cydia.saurik.com/icon@2x/com.ivanc.accent.png
+size: medium
+
+
 Package: com.domiferrar.safeccmodules
 Version: 1.5-1
 Architecture: iphoneos-arm
@@ -603,6 +245,22 @@ Description: More control center modules for iOS 11/12/13
 Author: jailbreak365 (jailbreak365@mail.com)
 Name: CCModules
 Icon: https://repo.packix.com/api/Packages/5d978915457ebf001a5f4005/icon/download?size=medium
+size: medium
+
+
+Package: com.domiferrar.realcc
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: BigBoss(bigboss@thebigboss.org)
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jakeashacks.realcc_1.0.2_iphoneos-arm.deb
+Size: 6602
+MD5sum: 4c1ac72b58ddb667894ede08b7c74d61SHA1: 1040509962ddae7abf0b6f6fdda99970eaf51edeSHA256: e9944c02cf9afacc4b57aaf92a92d5ad36461d9ec8323a37
+Section: Tweaks
+Description: Actually disable Wi-Fi from the iOS 11 CC
+Author: Jake James(jakeashacks@gmail.com)
+Name: RealCC
+Icon: 
 size: medium
 
 
@@ -656,19 +314,35 @@ Icon:
 size: medium
 
 
-Package: com.domiferrar.a-bypass
-Version: 1.5.3
+Package: com.domiferrar.cylinder
+Version: 1.1
 Architecture: iphoneos-arm
-Maintainer: Baw Appie (pp121324@gmail.com)
-Depends: mobilesubstrate, com.muirey03.libmryipc, applist, com.rpgfarm.libaptoast, preferenceloader
-Filename: ./debs/com.rpgfarm.a-bypass_1.5.3_iphoneos-arm.deb
-Size: 158330
-MD5sum: d4f12cc2b30057ea5568de911dd7b67fSHA1: 3a0011510c94b7d026ec913d04397c0f24e87ca7SHA256: 21b35cf4480cdfa0831e42e4ca9c28486ce2d7b1e252406d
+Maintainer: BigBoss(bigboss@thebigboss.org)
+Depends: firmware (>= 3.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/com.r333d.cylinder_1.1_iphoneos-arm.deb
+Size: 504318
+MD5sum: 0d29a93c3e5f0a3f15585865a089a547SHA1: c6e51e1af2f059d7530f41eaf3f1da6597af1a67SHA256: cf6ddcf5cf0b9022dacfdec49402d0969ed72484b509097a
 Section: Tweaks
-Description: Super Jailbreak detection bypass!
-Author: Baw Appie (pp121324@gmail.com)
-Name: A-Bypass
-Icon: https://api.ios-repo-updates.com/image.php?url=https://i.repo.co.kr/images/com.rpgfarm.a-bypass-icon-abypass.png.png
+Description: Make your icons dance
+Author: Reed Weichler(cydia@gmail.com)
+Name: Cylinder
+Icon: file:///Library/PreferenceBundles/CylinderSettings.bundle/Icon@2x.png
+size: medium
+
+
+Package: com.domiferrar.altdaemon
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Riley Testut
+Depends: 
+Filename: ./debs/com.rileytestut.altdaemon_1.0_iphoneos-arm.deb
+Size: 833900
+MD5sum: e4545b2b080ae62732ace88028032d18SHA1: fd80d9dafdca689e2f02afc307af4d5cb3956fe5SHA256: 4fde48e7c51a86d8f81116004f423e5199f18af05e5d6e1e
+Section: System
+Description: AltDaemon allows AltStore to install and refresh apps without a computer.
+Author: Riley Testut
+Name: AltDeamon
+Icon: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.idownloadblog.com%2F2020%2F10%2F06%2Faltdaemon-release%2F&psig=AOvVaw0Tp74RG_f8u1J01W8719em&ust=1617898520556000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNi18OfD7O8CFQAAAAAdAAAAABAD
 size: medium
 
 
@@ -685,6 +359,22 @@ Description: Support library allowing tweaks to communicate with sandboxed proce
 Author: Ryan Petrich (rocketbootstrap@gmail.com)
 Name: RocketBootstrap
 Icon: 
+size: medium
+
+
+Package: com.domiferrar.a-bypass
+Version: 1.5.3
+Architecture: iphoneos-arm
+Maintainer: Baw Appie (pp121324@gmail.com)
+Depends: mobilesubstrate, com.muirey03.libmryipc, applist, com.rpgfarm.libaptoast, preferenceloader
+Filename: ./debs/com.rpgfarm.a-bypass_1.5.3_iphoneos-arm.deb
+Size: 158330
+MD5sum: d4f12cc2b30057ea5568de911dd7b67fSHA1: 3a0011510c94b7d026ec913d04397c0f24e87ca7SHA256: 21b35cf4480cdfa0831e42e4ca9c28486ce2d7b1e252406d
+Section: Tweaks
+Description: Super Jailbreak detection bypass!
+Author: Baw Appie (pp121324@gmail.com)
+Name: A-Bypass
+Icon: https://api.ios-repo-updates.com/image.php?url=https://i.repo.co.kr/images/com.rpgfarm.a-bypass-icon-abypass.png.png
 size: medium
 
 
@@ -720,35 +410,19 @@ Icon:
 size: medium
 
 
-Package: com.domiferrar.libsparkcolourpicker
-Version: 1.0.0
+Package: com.domiferrar.libertylite
+Version: 0.2.10
 Architecture: iphoneos-arm
-Maintainer: Spark 
-Depends: 
-Filename: ./debs/com.spark.libsparkcolourpicker_1.0.0_iphoneos-arm.deb
-Size: 122008
-MD5sum: ac626b4cfdfb7e78956f4c98afc1c03cSHA1: fa98a67df11b7c971146dd333ba5a705668ae90fSHA256: 48da3c67a3ddfe9215d3972dbb2b2d8428e4ba91cbdbc021
-Section: System
-Description: Simple to implement, simple to use colour picker library. Built by SparkDev.
-Author: Spark
-Name: libsparkcolourpicker
-Icon: 
-size: medium
-
-
-Package: com.domiferrar.certremaintime
-Version: 2.3.8
-Architecture: iphoneos-arm
-Maintainer: BigBoss (bigboss@thebigboss.org)
-Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/fr.lululombard.certremaintime_2.3.8_iphoneos-arm.deb
-Size: 460880
-MD5sum: c914d7f85b7ddf60a4762228a090884bSHA1: 8fbb1907134dac921effdd7c236d4b72fdf0ca37SHA256: 58ac04c9ffeb59ba0cb494c3c07634e37a9e495e6d9aa977
-Section: Utilities
-Description: check when you'll need to re-sign your jailbreak
-Author: lululombard (contact@lululombard.fr)
-Name: CertRemainTime
-Icon: file:///Applications/CertRemainTime.app/Icon.png
+Maintainer: Ryley Angus
+Depends: mobilesubstrate, preferenceloader, applist
+Filename: ./debs/com.ryleyangus.libertylite_0.2.10_iphoneos-arm.deb
+Size: 78396
+MD5sum: 97147cdd1eaf8ae06becd003e82e0728SHA1: 7c64a20b289a25832057e7a39dc1e80a1f8367d5SHA256: dfd72bafdbb959041f66fc4507f0493c3deed4326a25277f
+Section: Tweaks
+Description: A (lite) general purpose jailbreak detection bypass patch. Use the Liberty entry in the Settings app to block (most) apps from detecting your jailbreak. Disabling Substrate/Substitute is not supported, so certain apps (PayPal, HSBC HK) will still be problematic.
+Author: Ryley Angus
+Name: Liberty Lite
+Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref.png
 size: medium
 
 
@@ -765,6 +439,71 @@ Description: Bring good looking widgets to the front page of settings!
 Author: shepgoba
 Name: SettingsWidgets
 Icon: https://repo.dynastic.co/data/static/version/321775100896477184/322474001899192320?size=332
+size: medium
+
+
+Package: com.domiferrar.libsparkcolourpicker
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Spark 
+Depends: 
+Filename: ./debs/com.spark.libsparkcolourpicker_1.0.0_iphoneos-arm.deb
+Size: 122008
+MD5sum: ac626b4cfdfb7e78956f4c98afc1c03cSHA1: fa98a67df11b7c971146dd333ba5a705668ae90fSHA256: 48da3c67a3ddfe9215d3972dbb2b2d8428e4ba91cbdbc021
+Section: System
+Description: Simple to implement, simple to use colour picker library. Built by SparkDev.
+Author: Spark
+Name: libsparkcolourpicker
+Icon: 
+size: medium
+
+
+Package: com.domiferrar.blanca
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Phoenix Dev <phnxdev07@gmail.com>
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 13.0)
+Filename: ./debs/com.vinit.blanca_1.0.1_iphoneos-arm.deb
+Size: 81582
+MD5sum: def93a626d7f9400e6dc759d5bb2be7b
+SHA1: 5c7bd8933409a23e2f5a0be29449348e26d9b11b
+SHA256: 34a6d2e23c148b2c08f2e3b48fc6a47f9322e5891c561515f93a2d5e9e2b1a23
+Section: Tweaks
+Description:  A beautiful tweak!
+Author: Phoenix Dev <phnxdev07@gmail.com>
+Name: Blanca
+Icon: https://phnx-dev.github.io/repo/icons/blanca.png
+
+
+Package: com.domiferrar.icanreadyou
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: CydiaGeek(lucaluca86@aol.com)
+Depends: mobilesubstrate
+Filename: ./debs/com.yourepo.cydiageek.icanreadyou_1.0.2_iphoneos-arm.deb
+Size: 8636
+MD5sum: fe482cbaf6da4373d7368c7f51dff8eaSHA1: 9c133248f0b9d0ba04a6b4f020025bb4a2097a0eSHA256: 9251d9aa48422d82747b072c25731d3c337103e4788d8d7d
+Section: Tweaks
+Description: You can always Read the Received WhatsApp Deleted Messages for All on Your Device! Soon also added as option on ABetterPrivacyforWhatsApp!
+Author: CydiaGeek(lucaluca86@aol.com)
+Name: ICanReadYou
+Icon: https://www.yourepo.com/images/sections/users/33.png
+size: medium
+
+
+Package: com.domiferrar.certremaintime
+Version: 2.3.8
+Architecture: iphoneos-arm
+Maintainer: BigBoss (bigboss@thebigboss.org)
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/fr.lululombard.certremaintime_2.3.8_iphoneos-arm.deb
+Size: 460880
+MD5sum: c914d7f85b7ddf60a4762228a090884bSHA1: 8fbb1907134dac921effdd7c236d4b72fdf0ca37SHA256: 58ac04c9ffeb59ba0cb494c3c07634e37a9e495e6d9aa977
+Section: Utilities
+Description: check when you'll need to re-sign your jailbreak
+Author: lululombard (contact@lululombard.fr)
+Name: CertRemainTime
+Icon: file:///Applications/CertRemainTime.app/Icon.png
 size: medium
 
 
@@ -849,22 +588,6 @@ Icon:
 size: medium
 
 
-Package: com.domiferrar.newterm2
-Version: 2.5
-Architecture: iphoneos-arm
-Maintainer: HASHBANG Productions (support@hbang.ws)
-Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.common (>= 1.16), bash, coreutils, ncurses, system-cmds, gettext-localizations | com.linusyang.localeutf8
-Filename: ./debs/ws.hbang.newterm2_2.5_iphoneos-arm.deb
-Size: 2997392
-MD5sum: b4d5c096f1dfdd72c9a60fe8b1e71d35SHA1: 485c7a766f0a5c174c9a5ff334b47f90e65c6fc0SHA256: b2445cb9356f46b068a60cd3f306913ece0bb1482081dda2 
-Section: Utilities
-Description: A powerful terminal app for iOS
-Author: HASHBANG Productions (support@hbang.ws)
-Name: NewTerm 2
-Icon: https://chariz.com/cdn/icon/newterm/icon@3x.png
-size: medium
-
-
 Package: com.domiferrar.libplist++3
 Version: 2.2.1-1
 Architecture: iphoneos-arm
@@ -945,6 +668,22 @@ Icon: https://api.ios-repo-updates.com/image.php?url=https://repo.dynastic.co/da
 size: medium
 
 
+Package: com.domiferrar.evilscheme
+Version: 0.2.4
+Architecture: iphoneos-arm
+Maintainer: Lorenzo Pane
+Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0) 
+Filename: ./debs/net.pane.l.evilscheme_0.2.4_iphoneos-arm.deb
+Size: 178606
+MD5sum: 7a6ceb31e5f47b6c916c14783a46a689SHA1: 81e3f7a385718e91376efb81519741fd45081ea2SHA256: b08366b6115ce4a9c5923da3a27e7450e84a0efa13d8ea64
+Section: Tweaks
+Description: Manage default browser, navigation app, package manager, and more!
+Author: Lorenzo Pane
+Name: EvilScheme
+Icon: https://repo-cdn.dynastic.co/319883617109016577.b25236ae12e85a97cfb7922259bddc5b-332
+size: medium
+
+
 Package: com.domiferrar.network-cmds
 Version: 543-1
 Architecture: iphoneos-arm
@@ -993,22 +732,6 @@ Icon:
 size: medium
 
 
-Package: com.domiferrar.preferenceloader
-Version: 2.2.6
-Architecture: iphoneos-arm
-Maintainer: BigBoss (bigboss@thebigboss.org)
-Depends: mobilesubstrate
-Filename: ./debs/preferenceloader_2.2.6_iphoneos-arm.deb
-Size: 67660
-MD5sum: 21cf06b4467d9eefaaaf6aefa39a11eeSHA1: 218fd251216d882a12dd9306497b31aa13f621eeSHA256: 53f961438d2e73c9300207e5baeaa045fd962563f192bd46 
-Section: System
-Description: load preferences in style
-Author: Sam Bingner (maintainer@sbdhi.com)
-Name: PreferenceLoader
-Icon: 
-size: medium
-
-
 Package: com.domiferrar.p7zip
 Version: 16.02-1
 Architecture: iphoneos-arm
@@ -1037,6 +760,22 @@ Section: Development
 Description: Perl-compatible regular expressions
 Author: 
 Name: pcre2
+Icon: 
+size: medium
+
+
+Package: com.domiferrar.preferenceloader
+Version: 2.2.6
+Architecture: iphoneos-arm
+Maintainer: BigBoss (bigboss@thebigboss.org)
+Depends: mobilesubstrate
+Filename: ./debs/preferenceloader_2.2.6_iphoneos-arm.deb
+Size: 67660
+MD5sum: 21cf06b4467d9eefaaaf6aefa39a11eeSHA1: 218fd251216d882a12dd9306497b31aa13f621eeSHA256: 53f961438d2e73c9300207e5baeaa045fd962563f192bd46 
+Section: System
+Description: load preferences in style
+Author: Sam Bingner (maintainer@sbdhi.com)
+Name: PreferenceLoader
 Icon: 
 size: medium
 
@@ -1089,22 +828,6 @@ Icon:
 size: medium
 
 
-Package: com.domiferrar.alderis
-Version: 1.1.2
-Architecture: iphoneos-arm
-Maintainer: HASHBANG Productions (support@hbang.ws)
-Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), uikittools
-Filename: ./debs/ws.hbang.alderis_1.1.2_iphoneos-arm.deb
-Size: 2850542
-MD5sum: 347e923ae9dd427f938d3de219a339ceSHA1: 4d5a48a6d97ad72aa1b801e9ada1805c76b7399fSHA256: 4330fc63052ea3ccda0ad24e4d51143579847dffe1157ecf
-Section: Development
-Description: Color picker support library for tweaks
-Author: HASHBANG Productions (support@hbang.ws)
-Name: Alderis Color Picker
-Icon: https://chariz.com/cdn/icon/alderis/icon@3x.png
-size: medium
-
-
 Package: com.domiferrar.common
 Version: 1.16
 Architecture: iphoneos-arm
@@ -1121,6 +844,38 @@ Icon: https://chariz.com/cdn/icon/cephei/icon@3x.png
 size: medium
 
 
+Package: com.domiferrar.newterm2
+Version: 2.5
+Architecture: iphoneos-arm
+Maintainer: HASHBANG Productions (support@hbang.ws)
+Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.common (>= 1.16), bash, coreutils, ncurses, system-cmds, gettext-localizations | com.linusyang.localeutf8
+Filename: ./debs/ws.hbang.newterm2_2.5_iphoneos-arm.deb
+Size: 2997392
+MD5sum: b4d5c096f1dfdd72c9a60fe8b1e71d35SHA1: 485c7a766f0a5c174c9a5ff334b47f90e65c6fc0SHA256: b2445cb9356f46b068a60cd3f306913ece0bb1482081dda2 
+Section: Utilities
+Description: A powerful terminal app for iOS
+Author: HASHBANG Productions (support@hbang.ws)
+Name: NewTerm 2
+Icon: https://chariz.com/cdn/icon/newterm/icon@3x.png
+size: medium
+
+
+Package: com.domiferrar.systeminfo
+Version: 2.7.2-2
+Architecture: iphoneos-arm
+Maintainer: ARX8x
+Depends: 
+Filename: ./debs/xyz.xninja.systeminfo_2.7.2-2_iphoneos-arm.deb
+Size: 427606
+MD5sum: 9fd6711520c9221d4092cc179863e19dSHA1: d056ce60898d08b898772ddc8e0efc241e17da58SHA256: 74fdae3fad007f0f3f839558957cc3fe59984ddd83a4b4ab
+Section: Tweaks
+Description: System information in Settings app > General > About, and other sections. Set boot-nonce, save SHSH, battery info etc
+Author: ARX8x
+Name: System Info
+Icon:
+size: medium
+
+
 Package: com.domiferrar.zip
 Version: 2.32-1
 Architecture: iphoneos-arm
@@ -1134,22 +889,6 @@ Description: standard Windows compression tool
 Author: 
 Name: zip
 Icon: 
-size: medium
-
-
-Package: com.domiferrar.zebra
-Version: 1.1.16
-Architecture: iphoneos-arm
-Maintainer: Wilson Styres (wilson@styres.me)
-Depends: 
-Filename: ./debs/xyz.willy.zebra_1.1.16_iphoneos-arm.deb
-Size: 27476856
-MD5sum: 621883dfa4d4c7e943ea90b8914891e2SHA1: de9fb7a21b2db4ce2193f43f4eede89fd51ac65fSHA256: 4063d33cd31e327e6ec06f15c6d9afb551ebbe53bbc848f9 
-Section: Tweaks
-Description: 
-Author: Wilson Styres (wilson@styres.me)
-Name: Zebra 
-Icon: https://getzbra.com/assets/zeeb.svg
 size: medium
 
 
